@@ -1,0 +1,81 @@
+
+
+:root {
+    --button-width: 100px;
+    --button-height: calc(var(--button-width) * .8);
+    --rectangle-height: calc(var(--button-width) * .1);
+    --rectangle-radius: calc(var(--button-width) * .04);
+    --translate: calc(var(--button-width) * .17);
+    --transition: 0.65s;
+}
+
+.fancy-burger {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border: 0;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-top: 2%;
+    .box {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 0px;
+        height: 500px;
+        border-radius: 33px;
+        background: #ffffffc9;
+        opacity: 0;
+        /*transform: scale(0);
+        transform-origin: top left;
+        transition-property: opacity, transform;
+        transition-duration: var(--transition);*/
+        transition: all 0.3s ease-in-out;
+      }
+      .box.open {
+        opacity: 1;
+        //transform: scale(1);
+        width: 400px;
+      }
+    .rectangle {
+        position: absolute;
+        height: 5px;
+        background: #000;
+        border-radius: var(--rectangle-radius);
+        transition: transform var(--transition);
+    }
+    .rectangle--small {
+        width: 29px;
+      }
+      .rectangle--top {
+        top: 0;
+        left: -18px;
+        transform-origin: top left;
+      }
+      .rectangle--top.open {
+        transform: translateX(var(--translate)) rotate(45deg);
+      }
+      .rectangle--middle {
+        top: 50%;
+        left: -8px;
+        width: 50px;
+        transform: translatey(-50%);
+      }
+      .rectangle--middle.open {
+        transform: translatey(-50%) rotate(-45deg);
+      }
+      .rectangle--bottom {
+        bottom: 0;
+        right: -9px;
+        transform-origin: bottom right;
+      }
+      .rectangle--bottom.open {
+        transform: translateX(calc(-1 * var(--translate))) rotate(45deg);
+      }
+}
+
+ul{
+    display: none;
+}
