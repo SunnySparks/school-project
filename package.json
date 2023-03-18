@@ -1,9 +1,14 @@
 {
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop -H 0.0.0.0"
+  },
   "dependencies": {
     "gatsby": "^5.7.0",
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-sharp": "^5.7.0",
     "gatsby-source-filesystem": "^5.7.0",
-    "gatsby-transformer-sharp": "^5.7.0"
+    "gatsby-transformer-sharp": "^5.7.0",
+    "reactjs-videobg": "^1.3.0"
   }
 }
