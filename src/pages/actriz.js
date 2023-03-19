@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Actriz from '../Components/Layout/Actriz';
 
 const actriz = () => {
   return (
-    <div>actriz</div>
+    <Actriz />
   )
 }
 

@@ -14,13 +14,13 @@ const Header = ({ navOptions }) => {
   return (
   <div id="header">
     <button className="fancy-burger" onClick={handleToggle}>
-      <span className={`box ${isOpen ? "open" : null }`}>
-        <NavBar navOptions={navOptions} />
-      </span>
       <span className={`rectangle rectangle--top rectangle--small ${isOpen ? "open" : null }`}></span>
       <span className={`rectangle rectangle--middle ${isOpen ? "open" : null }`}></span>
       <span className={`rectangle rectangle--bottom rectangle--small ${isOpen ? "open" : null }`}></span>
     </button>
+      <span className={`box ${isOpen ? "open" : null }`}>
+        <NavBar navOptions={navOptions} />
+      </span>
     <ul>
       <li></li>
     </ul>

@@ -3,14 +3,14 @@ import { Link } from 'gatsby';
 
 const NavBar = ({ navOptions }) => {
     return (
-      <div>
+      <div id="navCont">
         {navOptions.map(({ link, text }, i) => (
-          <div variant='link' href={link}>
-            {text}
-          </div>
+            <Link className='navLink' key={i} href={link}>{text}</Link>
         ))}
       </div>
     );
   };
 
-export default NavBar
+export default NavBar;
+
+//Puedes usar tanto className y activeClassName, para aplicar un estilo diferente cuando estás en esa página

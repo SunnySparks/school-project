@@ -4,7 +4,7 @@ import Layout from '../Components/Layout'
 import '../styles/videobg.scss';
 import VideoBg from "reactjs-videobg";
 import p8 from "../videos/p8.mp4";
-import '../styles/global.scss'
+import '../styles/global.scss';
 
 const navOptions = [
   { link: '/', text: 'Inicio' },
