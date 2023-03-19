@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-//import NavBar from './NavBar';
+import NavBar from './NavBar';
 import '../../styles/global.scss'
 import '../../styles/header.scss'
 
-const Header = () => {
+const Header = ({ navOptions }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggle = () => {
@@ -14,7 +14,9 @@ const Header = () => {
   return (
   <div id="header">
     <button className="fancy-burger" onClick={handleToggle}>
-      <span className={`box ${isOpen ? "open" : null }`}></span>
+      <span className={`box ${isOpen ? "open" : null }`}>
+        <NavBar navOptions={navOptions} />
+      </span>
       <span className={`rectangle rectangle--top rectangle--small ${isOpen ? "open" : null }`}></span>
       <span className={`rectangle rectangle--middle ${isOpen ? "open" : null }`}></span>
       <span className={`rectangle rectangle--bottom rectangle--small ${isOpen ? "open" : null }`}></span>

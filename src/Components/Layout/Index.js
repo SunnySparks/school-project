@@ -7,10 +7,10 @@ import Presentacion from './Presentacion';
 import p8 from "../../videos/p8.mp4";
 import '../../styles/videobg.scss';*/
 
-const Layout = () => {
+const Layout = ({ navOptions }) => {
     return (
       <>
-        <Header />
+        <Header navOptions={navOptions} />
         <Presentacion />
         <Obras />
       </>
