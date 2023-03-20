@@ -12,7 +12,10 @@ $webfont2: 'Open Sans', sans-serif;
     --transition: 0.65s;
 }
 
-.fancy-burger {
+#header{
+  z-index: 10;
+  position: relative;
+  .fancy-burger {
     position: relative;
     width: 45px;
     height: 45px;
@@ -62,6 +65,7 @@ $webfont2: 'Open Sans', sans-serif;
         transform: translateX(calc(-1 * var(--translate))) rotate(45deg);
       }
 }
+}
 .box {
         position: absolute;
         top: 0px;
@@ -69,7 +73,7 @@ $webfont2: 'Open Sans', sans-serif;
         width: 0px;
         height: 500px;
         border-radius: 33px;
-        background: #ffffffc9;
+        background: #ffffffe3;
         opacity: 0;
         /*transform: scale(0);
         transform-origin: top left;
@@ -80,8 +84,17 @@ $webfont2: 'Open Sans', sans-serif;
         border-top-left-radius: 0;
         #navCont{
           opacity: 0;
+          transition: all 0.3s ease-in-out;
+          width: 350px;
           .navLink{
             opacity: 0;
+            transition: all 0.3s ease-in-out;
+            display: none;
+            text-decoration: none;
+            color: #000;
+            text-transform: uppercase;
+            width: 100%;
+            max-width: 100%;
           }
         }
       }
@@ -101,6 +114,12 @@ $webfont2: 'Open Sans', sans-serif;
             opacity: 1;
             font-family: $webfont;
             margin: 10px 0;
+            display: block;
+            font-weight: 600;
+            text-transform: uppercase;
+            &:hover{
+              letter-spacing: 3px;
+            }
           }
         }
       }
