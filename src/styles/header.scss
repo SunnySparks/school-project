@@ -26,9 +26,12 @@ $webfont2: 'Open Sans', sans-serif;
     .rectangle {
         position: absolute;
         height: 5px;
-        background: #000;
+        background: #fff;
         border-radius: var(--rectangle-radius);
         transition: transform var(--transition);
+        &.open{
+          background: #000;
+        }
     }
     .rectangle--small {
         width: 29px;
@@ -73,6 +76,8 @@ $webfont2: 'Open Sans', sans-serif;
         transition-property: opacity, transform;
         transition-duration: var(--transition);*/
         transition: all 0.3s ease-in-out;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
         #navCont{
           opacity: 0;
           .navLink{

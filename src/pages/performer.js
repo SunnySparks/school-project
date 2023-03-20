@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Performer from '../Components/Layout/Performer';
 
 const performer = () => {
   return (
-    <div>performer</div>
+    <Performer />
   )
 }
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import Obras from './Obras';
 import Presentacion from './Presentacion';
 //import SexyBurger from './SexyBurger';
 /*import VideoBg from "reactjs-videobg";
@@ -12,9 +11,8 @@ const Layout = ({ navOptions }) => {
       <>
         <Header navOptions={navOptions} />
         <Presentacion />
-        <Obras />
       </>
-    );
-  };
+    )
+  }
   
   export default Layout;

@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import AsesoraCreativa from '../Components/Layout/AsesoraCreativa';
 
 const asesoraCreativa = () => {
   return (
-    <div>asesoraCreativa</div>
+    <AsesoraCreativa />
   )
 }
 

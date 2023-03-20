@@ -8,8 +8,8 @@ const NavBar = ({ navOptions }) => {
             <Link className='navLink' key={i} href={link}>{text}</Link>
         ))}
       </div>
-    );
-  };
+    )
+  }
 
 export default NavBar;
 

@@ -1,0 +1,16 @@
+#linksCont .navLink .liquid::before{
+    animation: animate 10s linear infinite;
+}
+
+#linksCont .navLink .liquid::after{
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: translate(-50%, -75%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -75%) rotate(360deg);
+    }
+}
