@@ -17,8 +17,8 @@ $webfont2: 'Open Sans', sans-serif;
   position: relative;
   .fancy-burger {
     position: relative;
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     border: 0;
     background: transparent;
     outline: none;
@@ -40,8 +40,8 @@ $webfont2: 'Open Sans', sans-serif;
         width: 29px;
       }
       .rectangle--top {
-        top: 0;
-        left: -18px;
+        top: -3px;
+        left: -12px;
         transform-origin: top left;
       }
       .rectangle--top.open {
@@ -49,16 +49,16 @@ $webfont2: 'Open Sans', sans-serif;
       }
       .rectangle--middle {
         top: 50%;
-        left: -8px;
-        width: 50px;
+        left: -4px;
+        width: 41px;
         transform: translatey(-50%);
       }
       .rectangle--middle.open {
         transform: translatey(-50%) rotate(-45deg);
       }
       .rectangle--bottom {
-        bottom: 0;
-        right: -9px;
+        bottom: -1px;
+        right: -19px;
         transform-origin: bottom right;
       }
       .rectangle--bottom.open {
