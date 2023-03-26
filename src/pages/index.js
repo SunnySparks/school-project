@@ -14,15 +14,17 @@ const navOptions = [
   { link: '/directoraEscenica', text: 'Directora Escenica' },
   { link: '/performer', text: 'Performer' },
   { link: '/sobreMi', text: 'Sobre Mi' },
+  { link: '/#', text: 'Contacto' },
 ];
 
 const Index = () => {
-  return <>
-        <VideoBg>
-          <VideoBg.Source src={p8} type="video/mp4" />
-        </VideoBg>
-        <Layout navOptions={navOptions}>Index</Layout>;
+  return <>        
+        <Layout navOptions={navOptions}>Index</Layout>
   </>
-};
+}
 
 export default Index;
+
+/*<VideoBg>
+    <VideoBg.Source src={p8} type="video/mp4" />
+  </VideoBg>*/

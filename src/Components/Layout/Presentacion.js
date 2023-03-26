@@ -3,13 +3,13 @@ import { StaticImage } from 'gatsby-plugin-image';
 import '../../styles/presentacion.scss';
 import '../../styles/global.scss';
 import { Link } from 'gatsby';
-import '../../styles/presentacion.css';
+//import '../../styles/presentacion.css';
 
 const Presentacion = ({ navOptions }) => {
   return (
     <div id="layoutCont">
       <div id="title">
-          <h1 className='webfont'>Laura Vetchinova</h1>
+          <h1 className='webfont'>Laura<br></br>Vetchinova</h1>
       </div>
       <div id="linksCont">
             <Link className='navLink webfont' href={`/actriz`}>

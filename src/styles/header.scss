@@ -12,9 +12,19 @@ $webfont2: 'Open Sans', sans-serif;
     --transition: 0.65s;
 }
 
-#header{
+.header{
   z-index: 10;
-  position: relative;
+  position: fixed;
+  display: flex;
+  justify-content: end;
+  right: 0;
+  width: 40px;
+  margin: 0;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  padding-top: 20px;
+  padding-right: 25px;
+  top: 10px;
   .fancy-burger {
     position: relative;
     width: 30px;
@@ -33,7 +43,7 @@ $webfont2: 'Open Sans', sans-serif;
         border-radius: var(--rectangle-radius);
         transition: transform var(--transition);
         &.open{
-          background: #000;
+          background: #fff;
         }
     }
     .rectangle--small {
@@ -64,24 +74,27 @@ $webfont2: 'Open Sans', sans-serif;
       .rectangle--bottom.open {
         transform: translateX(calc(-1 * var(--translate))) rotate(45deg);
       }
-}
+  }
+  &.open{
+    width: 100%;
+  }
 }
 .box {
         position: absolute;
         top: 0px;
-        left: 0px;
+        right: 0px;
         width: 0px;
-        height: 500px;
+        height: 600px;
         border-radius: 33px;
-        background: #ffffffe3;
+        background: #000000f8;
         opacity: 0;
         /*transform: scale(0);
         transform-origin: top left;
         transition-property: opacity, transform;
         transition-duration: var(--transition);*/
         transition: all 0.3s ease-in-out;
-        border-bottom-left-radius: 0;
-        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
         #navCont{
           opacity: 0;
           transition: all 0.3s ease-in-out;
@@ -91,36 +104,42 @@ $webfont2: 'Open Sans', sans-serif;
             transition: all 0.3s ease-in-out;
             display: none;
             text-decoration: none;
-            color: #000;
+            color: #fff;
             text-transform: uppercase;
             width: 100%;
             max-width: 100%;
           }
         }
-      }
-      .box.open {
-        opacity: 1;
-        //transform: scale(1);
-        width: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        #navCont{
+        &.open {
           opacity: 1;
+          //transform: scale(1);
+          width: 100%;
           display: flex;
           justify-content: center;
-          flex-direction: column;
-          .navLink{
+          align-items: center;
+          #navCont{
             opacity: 1;
-            font-family: $webfont;
-            margin: 10px 0;
-            display: block;
-            font-weight: 600;
-            text-transform: uppercase;
-            &:hover{
-              letter-spacing: 3px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .navLink{
+              opacity: 1;
+              font-family: $webfont;
+              margin: 10px 0;
+              display: block;
+              font-weight: 600;
+              text-transform: capitalize;
+              margin-left: 3%;
+              &:hover{
+                letter-spacing: 3px;
+              }
             }
           }
+        }
+      }
+      #headerSocial{
+        .socialInner{
+
         }
       }
 

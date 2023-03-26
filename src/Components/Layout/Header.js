@@ -12,7 +12,7 @@ const Header = ({ navOptions }) => {
 
 
   return (
-  <div id="header">
+  <div className={`header ${isOpen ? "open" : null }`}>
     <button className="fancy-burger" onClick={handleToggle}>
       <span className={`rectangle rectangle--top rectangle--small ${isOpen ? "open" : null }`}></span>
       <span className={`rectangle rectangle--middle ${isOpen ? "open" : null }`}></span>
@@ -21,6 +21,11 @@ const Header = ({ navOptions }) => {
       <span className={`box ${isOpen ? "open" : null }`}>
         <NavBar navOptions={navOptions} />
       </span>
+      <div id="headerSocial">
+        <div class="socialInner">
+          
+        </div>
+      </div>
     <ul>
       <li></li>
     </ul>
