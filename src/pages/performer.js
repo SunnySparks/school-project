@@ -1,24 +1,13 @@
 import React from 'react';
-import Performer from '../Components/Layout/Performer';
-import Header from '../Components/Layout/Header';
-
-const navOptions = [
-  { link: '/', text: 'Inicio' },
-  { link: '/actriz', text: 'Actriz' },
-  { link: '/performer', text: 'Performer' },
-  { link: '/asesoraCreativa', text: 'Asesora Creativa' },
-  { link: '/directoraEscenica', text: 'Directora Escenica' },
-  { link: '/performer', text: 'Performer' },
-  { link: '/sobreMi', text: 'Sobre Mi' },
-];
+import Layout from '../Components/Layout';
+import Performer from '../Components/Performer';
 
 const performer = () => {
   return (
-    <>
-    <Header navOptions={navOptions} />
-    <Performer />
-    </>
-  )
-}
+    <Layout>
+      <Performer />
+    </Layout>
+  );
+};
 
-export default performer
+export default performer;

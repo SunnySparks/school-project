@@ -1,35 +1,37 @@
-#inicio{
-    width: 100%;
-    #layoutCont{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        #title{
-            color: #fff;
-            width: 100%;
-            display: flex;
-            justify-content: start;
-            align-items: center;
+@import '../../styles/screenSizes';
+#inicio {
+  width: 100%;
+  #layoutCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    #title {
+      color: #fff;
+      width: 100%;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+    #linksCont {
+      display: flex;
+      flex-direction: column;
+      margin-top: 150px;
+      align-self: flex-start;
+      @media (min-width: $lg) {
+        flex-direction: row;
+      }
+      .navLink {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        margin: 10px;
+        &:hover {
+          transform: translateY(-10px);
         }
-        #linksCont{
-            display: flex;
-            flex-direction: column;
-            margin-top: 150px;
-            align-self: flex-start;
-            @media(min-width: 992px){
-                flex-direction: row;
-            }
-            .navLink{
-                color: #fff;
-                text-decoration: none;
-                transition: all 0.3s ease-in-out;
-                margin: 10px;
-                &:hover{
-                transform: translateY(-10px);  
-                }
-            }
-            /*.navLink{
+      }
+      /*.navLink{
                 position: relative;
                 padding: 20px;
                 display: block;
@@ -84,8 +86,8 @@
                     }
                 }
             }*/
-        }
     }
+  }
 }
 /*.block {
     //overflow: hidden;

@@ -1,7 +1,8 @@
+@import 'screenSizes';
 .VideoBg-module_wrapper__3FlD_ {
   background: #000;
   .VideoBg-module_video__2IPmN {
-    @media (max-width: 768px) {
+    @media (max-width: $md) {
       display: block !important;
       width: 100% !important;
     }

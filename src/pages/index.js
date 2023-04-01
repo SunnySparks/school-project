@@ -1,30 +1,22 @@
-import React  from 'react';
-import Layout from '../Components/Layout'
-//import '../styles/global.sass';
+import React from 'react';
+import Layout from '../Components/Layout';
 import '../styles/videobg.scss';
-import VideoBg from "reactjs-videobg";
-import p8 from "../videos/p8.mp4";
 import '../styles/global.scss';
-
-const navOptions = [
-  { link: '/', text: 'Inicio' },
-  { link: '/actriz', text: 'Actriz' },
-  { link: '/performer', text: 'Performer' },
-  { link: '/asesoraCreativa', text: 'Asesora Creativa' },
-  { link: '/directoraEscenica', text: 'Directora Escenica' },
-  { link: '/performer', text: 'Performer' },
-  { link: '/sobreMi', text: 'Sobre Mi' },
-  { link: '/#', text: 'Contacto' },
-];
-
+import Hero from '../Components/Hero';
+import Performer from '../Components/Performer';
+import Actriz from '../Components/Actriz';
+import AsesoraCreativa from '../Components/AsesoraCreativa';
+import DirectoraEscenica from '../Components/DirectoraEscenica';
 const Index = () => {
-  return <>        
-        <Layout navOptions={navOptions}>Index</Layout>
-  </>
-}
+  return (
+    <Layout>
+      <Hero />
+      <Performer />
+      <Actriz />
+      <AsesoraCreativa />
+      <DirectoraEscenica />
+    </Layout>
+  );
+};
 
 export default Index;
-
-/*<VideoBg>
-    <VideoBg.Source src={p8} type="video/mp4" />
-  </VideoBg>*/

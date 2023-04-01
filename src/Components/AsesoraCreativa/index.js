@@ -1,12 +1,11 @@
 import React from 'react';
-import '../../styles/actriz.scss';
+import './asesora.scss';
 import icon from '../../images/icon.png';
 
-
-const Actriz = () => {
+const AsesoraCreativa = () => {
   return (
-    <div id="actrizCont">
-      <h2 className="webfont">Performer</h2>
+    <div id="asesoraCont">
+      <h2 className="webfont">Asesora</h2>
       <div className="wrapper">
         <div id="imgCont">
         <img src={icon} alt="Enfermedades Espirituales" />
@@ -22,4 +21,4 @@ const Actriz = () => {
   )
 }
 
-export default Actriz
+export default AsesoraCreativa

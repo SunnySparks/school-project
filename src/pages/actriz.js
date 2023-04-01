@@ -1,6 +1,6 @@
 import React from 'react';
-import Actriz from '../Components/Layout/Actriz';
-import Header from '../Components/Layout/Header';
+// import Actriz from '../Components/Layout/Actriz';
+// import Header from '../Components/Layout/Header';
 
 /*const navOptions = [
   { link: '/', text: 'Inicio' },
@@ -12,11 +12,11 @@ import Header from '../Components/Layout/Header';
   { link: '/sobreMi', text: 'Sobre Mi' },
 ];*/
 
-const actriz = ({navOptions}) => {
+const actriz = () => {
   return (
     <>
-    <Header navOptions={navOptions} />
-    <Actriz />
+    {/* <Header />
+    <Actriz /> */}
     </>
   )
 }

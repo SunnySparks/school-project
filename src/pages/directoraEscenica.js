@@ -1,10 +1,8 @@
 import React from 'react';
-import DirectoraEscenica from '../Components/Layout/DirectoraEscenica';
-
+// import DirectoraEscenica from '../Components/Layout/DirectoraEscenica';
 const directoraEscenica = () => {
-  return (
-    <DirectoraEscenica />
-  )
-}
+  return null;
+  // <DirectoraEscenica />
+};
 
-export default directoraEscenica
+export default directoraEscenica;
