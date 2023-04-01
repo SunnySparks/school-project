@@ -2,7 +2,7 @@ import React from 'react';
 import Actriz from '../Components/Layout/Actriz';
 import Header from '../Components/Layout/Header';
 
-const navOptions = [
+/*const navOptions = [
   { link: '/', text: 'Inicio' },
   { link: '/actriz', text: 'Actriz' },
   { link: '/performer', text: 'Performer' },
@@ -10,9 +10,9 @@ const navOptions = [
   { link: '/directoraEscenica', text: 'Directora Escenica' },
   { link: '/performer', text: 'Performer' },
   { link: '/sobreMi', text: 'Sobre Mi' },
-];
+];*/
 
-const actriz = () => {
+const actriz = ({navOptions}) => {
   return (
     <>
     <Header navOptions={navOptions} />

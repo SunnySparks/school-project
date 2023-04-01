@@ -12,11 +12,11 @@ const Presentacion = ({ navOptions }) => {
           <h1 className='webfont'>Laura<br></br>Vetchinova</h1>
       </div>
       <div id="linksCont">
-            <Link className='navLink webfont' href={`/actriz`}>
+            <Link className='navLink webfont' href="#actrizCont">
               <span>{`Actriz`}</span>
               <div className='liquid'></div>
             </Link>
-            <Link className='navLink webfont' href={`/performer`}>
+            <Link className='navLink webfont' href="#performerCont">
               <span>{`Performer`}</span>
               <div className='liquid'></div>
             </Link>

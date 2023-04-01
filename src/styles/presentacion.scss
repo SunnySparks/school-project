@@ -17,6 +17,9 @@
             flex-direction: column;
             margin-top: 150px;
             align-self: flex-start;
+            @media(min-width: 992px){
+                flex-direction: row;
+            }
             .navLink{
                 color: #fff;
                 text-decoration: none;
