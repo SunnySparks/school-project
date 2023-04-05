@@ -1,5 +1,5 @@
 import React from 'react';
-import performer from '../../images/performer.jpg';
+import performer from '../../images/performer.webp';
 import './performer.scss';
 import '../../styles/global.scss';
 

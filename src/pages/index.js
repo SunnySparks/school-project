@@ -11,10 +11,10 @@ const Index = () => {
   return (
     <Layout>
       <Hero />
-      <Performer />
       <Actriz />
-      <AsesoraCreativa />
       <DirectoraEscenica />
+      <Performer />
+      <AsesoraCreativa />
     </Layout>
   );
 };
