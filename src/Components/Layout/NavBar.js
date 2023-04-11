@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faWhatsapp, faInstagram, faTwitter, faPinterest } from "@fortawesome/free-brands-svg-icons";
+import '../../styles/global.scss';
 
 const navOptions = [
   { link: '/', text: 'Inicio' },
@@ -20,6 +23,23 @@ const NavBar = () => {
           {text}
         </Link>
       ))}
+      <div id="iconsCont">
+        <div className='iconInner'>
+          <FontAwesomeIcon icon={faFacebook} />
+        </div>
+        <div className='iconInner'>
+          <FontAwesomeIcon icon={faWhatsapp} />
+        </div>
+        <div className='iconInner'>
+          <FontAwesomeIcon icon={faInstagram} />
+        </div>
+        <div className='iconInner'>
+          <FontAwesomeIcon icon={faTwitter} />
+        </div>
+        <div className='iconInner'>
+          <FontAwesomeIcon icon={faPinterest} />
+        </div>
+      </div>
     </div>
   );
 };

@@ -86,7 +86,7 @@ $webfont2: 'Open Sans', sans-serif;
         width: 0px;
         height: 600px;
         border-radius: 33px;
-        background: #000000f8;
+        background: #0000009c;
         opacity: 0;
         /*transform: scale(0);
         transform-origin: top left;
@@ -99,6 +99,10 @@ $webfont2: 'Open Sans', sans-serif;
           opacity: 0;
           transition: all 0.3s ease-in-out;
           width: 350px;
+          margin-left: 235px;
+          @media(min-width: 1024px){
+            margin-left: 200px;
+          }
           .navLink{
             opacity: 0;
             transition: all 0.3s ease-in-out;
