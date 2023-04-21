@@ -9,11 +9,13 @@ import AsesoraCreativa from '../Components/AsesoraCreativa';
 import DirectoraEscenica from '../Components/DirectoraEscenica';
 import Testimonios from '../Components/Testimonios';
 import AlMomento from '../Components/AlMomento';
+import SobreMi from '../Components/SobreMi';
 
 const Index = () => {
   return (
     <Layout>
       <Hero />
+      <SobreMi />
       <Actriz />
       <DirectoraEscenica />
       <Performer />

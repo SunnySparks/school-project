@@ -16,16 +16,16 @@ const Hero = () => {
             <span>{`Actriz`}</span>
             <div className='liquid'></div>
           </Link>
+          <Link className='navLink webfont' href={`/directoraEscenica`}>
+            <span>{`Directora Escénica`}</span>
+            <div className='liquid'></div>
+          </Link>
           <Link className='navLink webfont' href='#performerCont'>
             <span>{`Performer`}</span>
             <div className='liquid'></div>
           </Link>
-          <Link className='navLink webfont' href={`/directoraEscenica`}>
-            <span>{`Directora`}</span>
-            <div className='liquid'></div>
-          </Link>
           <Link className='navLink webfont' href={`/asesoraCreativa`}>
-            <span>{`Asesora Creativa`}</span>
+            <span>{`Asesora Creativa / Docente`}</span>
             <div className='liquid'></div>
           </Link>
         </div>

@@ -1,0 +1,69 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to { opacity: 1 }
+  }
+
+#sobreMiCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    border: 1px solid #fff;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+    //animation: fadeIn 3s;
+    animation: fadeInBottom 3s;
+    @media(min-width: 992px){
+        flex-direction: row;
+    }
+    #title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        position: relative;
+        @media(min-width: 992px){
+            width: 40%;
+        }
+        h2{
+            color: #fff;
+        }
+        &::before{
+            @media(max-width: 991px){
+                display: none;
+            }
+            content: "";
+            display: block;
+            position: absolute;
+            right: 0;
+            background: #fff;
+            width: 5px;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+        }
+    }
+    #content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 20px;
+        @media(min-width: 992px){
+            width: 60%;
+        }
+        p{
+            color: #fff;
+        }
+    }
+}

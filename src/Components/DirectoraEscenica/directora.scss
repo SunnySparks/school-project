@@ -4,21 +4,37 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        color: #fff;
     }
     .wrapper{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        #imgCont{
-            display: flex;
-            justify-content: center;
-            img{
-                max-width: 50%;
+        @media(min-width: 992px){
+            flex-direction: row-reverse;
+        }
+        #imagery{
+            @media(min-width: 992px){
+                width: 50%;
+            }
+            #imgCont{
+                display: flex;
+                justify-content: center;
+                img{
+                    max-width: 100%;
+                }
             }
         }
-        .textCont{
-            box-sizing: border-box;
+        #dirContent{
+            padding: 20px;
+            @media(min-width: 992px){
+                width: 50%;
+            }
+            #textCont{
+                box-sizing: border-box;
+                color: #fff;
+            }
         }
     }
 }

@@ -94,9 +94,6 @@ const SaberMas = () => {
             <div className="slide">
                 <img src={a18} />
             </div>
-
-            /*Duplicate*/
-
             <div className="slide">
                 <img src={a1} />   
             </div>
