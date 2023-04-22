@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import performer from '../../images/performer.webp';
 import './performer.scss';
 import '../../styles/global.scss';
@@ -21,9 +22,9 @@ const Performer = () => {
           Actualmente le interesa la investigación transdiciplinar y asiste al Taller Rufino Tamayo (Oaxaca) a clases de pintura.
           </p>
         </div>
-        <div className='home-buttons webfont'>
-        <a href='#'>Saber Más</a>
-      </div>
+        <div className="home-buttons webfont">
+            <Link href="./Performer/SaberMas">Saber Más</Link>
+          </div>
       </div>
         </div>
     </div>

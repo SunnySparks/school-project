@@ -1,0 +1,35 @@
+#perfTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    h2{
+        color: #fff;
+    }
+}
+#perfGrid{
+    #gridCont{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        >div{
+            margin: 10px;
+            border: 1px solid #fff;
+            img{
+                max-width: 300px;
+                object-fit: cover;
+                height: 250px;
+                object-position: center;
+            }
+        }
+        #grid1 { grid-area: 1 / 1 / 2 / 2; }
+        #grid2 { grid-area: 1 / 2 / 2 / 3; }
+        #grid3 { grid-area: 1 / 3 / 2 / 4; }
+        #grid4 { grid-area: 1 / 4 / 2 / 5; }
+        #grid5 { grid-area: 2 / 1 / 3 / 2; }
+        #grid6 { grid-area: 2 / 2 / 3 / 3; }
+        #grid7 { grid-area: 2 / 3 / 3 / 4; }
+        #grid8 { grid-area: 2 / 4 / 3 / 5; }
+    }
+}

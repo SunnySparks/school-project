@@ -6,10 +6,17 @@
     align-items: center;
 }
 
-#frameCont{
+#frameCont, #secondVideo, #thirdVideo{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin: auto;
+}
+
+#secondText{
+    color: #fff;
+    ul{
+        display: inline-block;
+    }
 }
