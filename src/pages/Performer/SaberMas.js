@@ -9,10 +9,14 @@ import img5 from '../../images/perfsm/perf5.webp';
 import img6 from '../../images/perfsm/perf6.webp';
 import img7 from '../../images/perfsm/perf7.webp';
 import img8 from '../../images/perfsm/perf8.webp';
+import Header from '../../Components/Layout/Header';
+import Fade from 'react-reveal/Fade';
 
 const SaberMas = () => {
   return (
-    <div>
+    <>
+    <Header />
+    <Fade left duration={2800}>
         <div id="perfTitle">
             <h2>Performer</h2>
         </div>
@@ -44,7 +48,8 @@ const SaberMas = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </Fade>
+    </>
   )
 }
 

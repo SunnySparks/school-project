@@ -1,9 +1,11 @@
 import React from 'react';
 import './asesora.scss';
-import img from '../../images/portada5.webp'
+import img from '../../images/portada5.webp';
+import Fade from 'react-reveal/Fade';;
 
 const AsesoraCreativa = () => {
   return (
+    <Fade left duration={2800}>
     <div id="asesoraCont">
       <h2 className="webfont">ASESORA CREATIVA Y DOCENTE</h2>
       <div className="wrapper">
@@ -23,6 +25,7 @@ La artista Laura Vetchínova a su vez a asesorado y curado proyectos artísticos
         </div>
         </div>
     </div>
+    </Fade>
   )
 }
 

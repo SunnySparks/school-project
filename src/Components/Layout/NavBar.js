@@ -3,14 +3,14 @@ import { Link } from 'gatsby';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faWhatsapp, faInstagram, faTwitter, faPinterest } from "@fortawesome/free-brands-svg-icons";
 import '../../styles/global.scss';
+import '../../pages/Actriz/SaberMas'
 
 const navOptions = [
   { link: '/', text: 'Inicio' },
-  { link: '/actriz', text: 'Actriz' },
-  { link: '/performer', text: 'Performer' },
+  { link: '/Actriz/SaberMas', text: 'Actriz' },
+  { link: '/Directora/SaberMas', text: 'Directora Escenica' },
+  { link: '/Performer/SaberMas', text: 'Performer' },
   { link: '/asesoraCreativa', text: 'Asesora Creativa' },
-  { link: '/directoraEscenica', text: 'Directora Escenica' },
-  { link: '/performer', text: 'Performer' },
   { link: '/sobreMi', text: 'Sobre Mi' },
   { link: '/#', text: 'Contacto' },
 ];

@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
 
 #frameCont, #secondVideo, #thirdVideo{
@@ -12,11 +13,33 @@
     align-items: center;
     width: 100%;
     margin: auto;
+    margin: 20px 0;
+    iframe{
+        @media(min-width: 1024px){
+            width: 800px;
+        }
+    }
+}
+
+#secondVideo, #thirdVideo{
+    
 }
 
 #secondText{
     color: #fff;
+    @media(min-width: 1024px){
+        width: 800px;
+        margin: auto;
+    }
     ul{
         display: inline-block;
+        margin: 15px auto 0;
+        li{
+            list-style-type: circle;
+            font-weight: 200;
+            span{
+                font-weight: 500;
+            }
+        }
     }
 }

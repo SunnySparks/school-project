@@ -70,7 +70,7 @@
       margin-top: 150px;
       align-self: flex-start;
       @media (min-width: $lg) {
-        flex-direction: row;
+        //flex-direction: row;
       }
       .navLink {
         color: #fff;
@@ -79,11 +79,19 @@
         animation: fadeIn 4s;
         animation-name: fibSub;
         animation-fill-mode: both;
+        transition: all 0.3s ease-in-out;
+        //background: rgba(0, 0, 0, 0.5333333333);
+        padding: 10px;
+        margin-left: 0;
+        padding-left: 0;
         @media(min-width: 1280px){
           font-size: 25px;
         }
         &:hover {
-          transform: translateY(-10px);
+          //color: #000;
+          //background: #ffffff96;
+          font-weight: 800;
+          letter-spacing: 1.2px;
         }
       }
       /*.navLink{

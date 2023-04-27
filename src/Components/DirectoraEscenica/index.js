@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import './directora.scss';
-import img from '../../images/direcportada.webp'
+import img from '../../images/direcportada.webp';
+import Fade from 'react-reveal/Fade';
+
 const DirectoraEscenica = () => {
   return (
+    <Fade left duration={2800}>
     <div id='directoraCont'>
       <h2 className='webfont'>Directora Escénica</h2>
       <div className='wrapper'>
@@ -26,6 +29,7 @@ const DirectoraEscenica = () => {
         </div>
       </div>
     </div>
+    </Fade>
   );
 };
 

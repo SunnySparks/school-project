@@ -16,11 +16,11 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 20px;
-    border: 1px solid #fff;
+    //border: 1px solid #fff;
     margin: 20px;
     transition: all 0.3s ease-in-out;
     //animation: fadeIn 3s;
-    animation: fadeInBottom 3s;
+    //animation: fadeInBottom 3s;
     @media(min-width: 992px){
         flex-direction: row;
     }
@@ -32,7 +32,7 @@
         box-sizing: border-box;
         position: relative;
         @media(min-width: 992px){
-            width: 40%;
+            width: 30%;
         }
         h2{
             color: #fff;
@@ -64,6 +64,7 @@
         }
         p{
             color: #fff;
+            font-weight: 200;
         }
     }
 }

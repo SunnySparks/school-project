@@ -4,10 +4,11 @@ import './actriz.scss';
 import '../../styles/global.scss'
 import img from '../../images/actrizportada1.webp';
 import img2 from '../../images/actrizportada2.webp';
-
+import Fade from 'react-reveal/Fade';
 
 const Actriz = () => {
   return (
+    <Fade right duration={2800}>
     <div id="actrizCont">
       <div id="actrizTitle"><h2 className="webfont">Actriz</h2></div>
       <div className="wrapper">
@@ -55,6 +56,7 @@ const Actriz = () => {
         </div>
       </div>
     </div>
+    </Fade>
   )
 }
 

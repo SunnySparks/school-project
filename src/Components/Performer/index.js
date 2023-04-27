@@ -3,9 +3,11 @@ import { Link } from 'gatsby';
 import performer from '../../images/performer.webp';
 import './performer.scss';
 import '../../styles/global.scss';
+import Fade from 'react-reveal/Fade';
 
 const Performer = () => {
   return (
+    <Fade right duration={2800}>
     <div id='performerCont'>
       <h2 className='webfont'>Performer</h2>
       <div className='wrapper'>
@@ -28,6 +30,7 @@ const Performer = () => {
       </div>
         </div>
     </div>
+    </Fade>
   );
 };
 

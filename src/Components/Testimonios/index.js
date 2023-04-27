@@ -1,6 +1,6 @@
 import React from 'react'
 import icon from '../../images/icon.png';
-
+import './testimonios.scss';
 
 const Testimonios = () => {
   return (

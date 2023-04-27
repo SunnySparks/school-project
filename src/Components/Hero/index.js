@@ -16,7 +16,7 @@ const Hero = () => {
             <span>{`Actriz`}</span>
             <div className='liquid'></div>
           </Link>
-          <Link className='navLink webfont' href={`/directoraEscenica`}>
+          <Link className='navLink webfont' href={`#directoraCont`}>
             <span>{`Directora Escénica`}</span>
             <div className='liquid'></div>
           </Link>
@@ -24,7 +24,7 @@ const Hero = () => {
             <span>{`Performer`}</span>
             <div className='liquid'></div>
           </Link>
-          <Link className='navLink webfont' href={`/asesoraCreativa`}>
+          <Link className='navLink webfont' href={`#asesoraCont`}>
             <span>{`Asesora Creativa / Docente`}</span>
             <div className='liquid'></div>
           </Link>
