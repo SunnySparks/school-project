@@ -26,7 +26,7 @@ $webfont3: 'Open Sans', sans-serif;
   transition: all 0.3s ease-in-out;
   padding-top: 20px;
   padding-right: 25px;
-  top: 10px;
+  top: 0px;
   @media(min-width: 768px){
     display: none;
   }
@@ -104,9 +104,8 @@ $webfont3: 'Open Sans', sans-serif;
           opacity: 0;
           transition: all 0.3s ease-in-out;
           width: 350px;
-          margin-left: 235px;
+          margin-left: 2%;
           @media(min-width: 1024px){
-            margin-left: 200px;
           }
           .navLink{
             opacity: 0;
@@ -168,6 +167,16 @@ ul{
       text-decoration: none;
       font-weight: 600;
       text-transform: capitalize;
+      font-size: 13px;
+      @media(min-width: 992px){
+        font-size: 15px;
+      }
+      @media(min-width: 1280px){
+        font-size: 20px;
+      }
+      @media(min-width: 1800px){
+        font-size: 25px;
+      }
     }
     #iconsCont{
       display: none;

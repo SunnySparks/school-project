@@ -1,15 +1,6 @@
 .header{
   margin-bottom: 50px;
 }
-#title{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-  h2{
-    color: #fff;
-  }
-}
 #sliderCont{
   min-height: 100vh;
   display: grid;
@@ -54,6 +45,13 @@
           transition: all 0.5s ease-in-out;
           font-family: 'Poppins', sans-serif;
           font-weight: 400;
+          background: #0000006e;
+          padding: 5px;
+          text-align: center;
+          font-size: 12px;
+          strong{
+            font-size: 14px;
+          }
         }
         &:hover{
           z-index: 99;

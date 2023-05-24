@@ -8,7 +8,7 @@ import '../../pages/Actriz/SaberMas'
 const navOptions = [
   { link: '/', text: 'Inicio' },
   { link: '/Actriz/SaberMas', text: 'Actriz' },
-  { link: '/Directora/SaberMas', text: 'Directora Escenica' },
+  { link: '/Directora/SaberMas', text: 'Directora Escénica' },
   { link: '/Performer/SaberMas', text: 'Performer' },
   { link: '/asesoraCreativa', text: 'Asesora Creativa' },
   { link: '/sobreMi', text: 'Sobre Mi' },

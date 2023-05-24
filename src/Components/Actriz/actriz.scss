@@ -8,6 +8,7 @@
             display: flex;
             justify-content: center;
             color: #fff;
+            font-size: 35px;
         }
     }
     .wrapper{
@@ -143,6 +144,8 @@
             #textCont{
                 box-sizing: border-box;
                 color: #fff;
+                //width: 380px;
+                padding: 20px;
             }
             #videoCont{
                 @media(min-width: 1024px){
@@ -150,7 +153,7 @@
                 }
                 iframe{
                     @media(max-width: 767px){
-                        //width: 300px;
+                        width: 300px;
                     }
                     @media(min-width: 992px){
                         //width: 380px;

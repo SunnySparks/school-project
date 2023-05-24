@@ -44,91 +44,91 @@ const SaberMas = () => {
   return (
     <>
     <Header />
-    <div id="title">
-        <h2>Actriz</h2>
+    <div className='subTitleCont'>
+        <h2 className="subpageTitle">Actriz</h2>
     </div>
     <div id="sliderCont">
         <div className="slider">
         <div className="slideTrack">
             <div className="slide">
                 <img src={a1} />  
-                <h4><strong>Metro</strong> San Petersburgo, Rusia 2014</h4> 
+                <h4><strong>Metro</strong><br></br>San Petersburgo, Rusia 2014</h4> 
             </div>
             <div className="slide">
                 <img src={a2} />
-                <h4><strong>Metro</strong> Programa de mano. San Petersburgo, Rusia 2014</h4>
+                <h4><strong>Metro</strong><br></br>Programa de mano. San Petersburgo, Rusia 2014</h4>
             </div>
             <div className="slide">
                 <img src={a3} />
-                <h4><strong>El Idiota.2012</strong> San Perterburgo, Rusia 2012</h4> 
+                <h4><strong>El Idiota</strong><br></br>San Perterburgo, Rusia 2012</h4> 
             </div>
             <div className="slide">
                 <img src={a4} />
-                <h4><strong>Estrellas Enterradas</strong> Nota de prensa de obra. Oaxaca, México 2016</h4>
+                <h4><strong>Estrellas Enterradas</strong><br></br>Nota de prensa de obra. Oaxaca, México 2016</h4>
             </div>
             <div className="slide">
                 <img src={a5} />
-                <h4><strong>Estrellas Enterradas</strong> Oaxaca, México 2016</h4>
+                <h4><strong>Estrellas Enterradas</strong><br></br>Oaxaca, México 2016</h4>
             </div>
             <div className="slide">
                 <img src={a6} />
-                <h4><strong>Estrellas Enterradas</strong> Oaxaca, México 2016</h4>
+                <h4><strong>Estrellas Enterradas</strong><br></br>Oaxaca, México 2016</h4>
             </div>
             <div className="slide">
                 <img src={a7} />
-                <h4><strong>Ítaca. Bitácora de Viaje</strong> Córdoba, Veracruz 2019 </h4>
+                <h4><strong>Ítaca. Bitácora de Viaje</strong><br></br>Córdoba, Veracruz 2019 </h4>
             </div>
             <div className="slide">
                 <img src={a8} />
-                <h4><strong>Ítaca. Bitácora de Viaje</strong> Xalapa, Veracruz 2017</h4>
+                <h4><strong>Ítaca. Bitácora de Viaje</strong><br></br>Xalapa, Veracruz 2017</h4>
             </div>
             <div className="slide">
                 <img src={a9} />
-                <h4><strong>Ítaca. Bitácora de Viaje</strong> Xalapa, Veracruz 2017</h4>
+                <h4><strong>Ítaca. Bitácora de Viaje</strong><br></br>Xalapa, Veracruz 2017</h4>
             </div>
             <div className="slide">
                 <img src={a10} />
-                <h4><strong>Ítaca. Bitácora de Viaje</strong> Córdoba, Veracruz 2019</h4>
+                <h4><strong>Ítaca. Bitácora de Viaje</strong><br></br>Córdoba, Veracruz 2019</h4>
             </div>
             <div className="slide">
                 <img src={a11} />
-                <h4><strong>Ítaca. Bitácora de Viaje</strong> Xalapa, Veracruz 2017</h4>
+                <h4><strong>Ítaca. Bitácora de Viaje</strong><br></br>Xalapa, Veracruz 2017</h4>
             </div>
             <div className="slide">
                 <img src={a12} />
-                <h4><strong>Ítaca. Bitácora de Viaje</strong> Muestra Estatal de Teatro, Veracruz 2017</h4>
+                <h4><strong>Ítaca. Bitácora de Viaje</strong><br></br>Muestra Estatal de Teatro, Veracruz 2017</h4>
             </div>
             <div className="slide">
                 <img src={a13} />
-                <h4><strong>Mujeres En El Encierro</strong> Oaxaca, México 2017</h4>
+                <h4><strong>Mujeres En El Encierro</strong><br></br>Oaxaca, México 2017</h4>
             </div>
             <div className="slide">
                 <img src={a14} />
-                <h4><strong>Mujeres En El Encierro</strong> CDMX 2017</h4>
+                <h4><strong>Mujeres En El Encierro</strong><br></br>CDMX 2017</h4>
             </div>
             <div className="slide">
                 <img src={a15} />
-                <h4><strong>Mujeres En El Encierro</strong> Oaxaca, México 2017</h4>
+                <h4><strong>Mujeres En El Encierro</strong><br></br>Oaxaca, México 2017</h4>
             </div>
             <div className="slide">
                 <img src={a16} />
-                <h4><strong>Mujeres En El Encierro</strong> Programa de mano</h4>
+                <h4><strong>Mujeres En El Encierro</strong><br></br>Programa de mano</h4>
             </div>
             <div className="slide">
                 <img src={a17} />
-                <h4><strong>Laura Vetchínova</strong> 1990</h4>
+                <h4><strong>Laura Vetchínova</strong><br></br>1990</h4>
             </div>
             <div className="slide">
                 <img src={a18} />
-                <h4><strong>-CHAYKA-</strong> Oaxaca, México 2020</h4>
+                <h4><strong>-CHAYKA-</strong><br></br>Oaxaca, México 2020</h4>
             </div>
             <div className="slide">
                 <img src={a19} />
-                <h4><strong>-CHAYKA-</strong> Xalapa, Veracruz 2021 </h4>
+                <h4><strong>-CHAYKA-</strong><br></br>Xalapa, Veracruz 2021 </h4>
             </div>
             <div className="slide">
                 <img src={a20} />
-                <h4><strong>-CHAYKA-</strong> Pocoapoco Oaxaca, México 2022</h4>
+                <h4><strong>-CHAYKA-</strong><br></br>Pocoapoco Oaxaca, México 2022</h4>
             </div>
             <div className="slide">
                 <img src={a21} />
@@ -140,83 +140,83 @@ const SaberMas = () => {
             </div>
             <div className="slide">
                 <img src={a1} />  
-                <h4><strong>Metro</strong> San Petersburgo, Rusia 2014</h4> 
+                <h4><strong>Metro</strong><br></br>San Petersburgo, Rusia 2014</h4> 
             </div>
             <div className="slide">
                 <img src={a2} />
-                <h4><strong>Metro</strong> Programa de mano. San Petersburgo, Rusia 2014</h4>
+                <h4><strong>Metro</strong><br></br>Programa de mano. San Petersburgo, Rusia 2014</h4>
             </div>
             <div className="slide">
                 <img src={a3} />
-                <h4><strong>El Idiota.2012</strong> San Perterburgo, Rusia 2012</h4> 
+                <h4><strong>El Idiota</strong><br></br>San Perterburgo, Rusia 2012</h4> 
             </div>
             <div className="slide">
                 <img src={a4} />
-                <h4><strong>Estrellas Enterradas</strong> Nota de prensa de obra. Oaxaca, México 2016</h4>
+                <h4><strong>Estrellas Enterradas</strong><br></br>Nota de prensa de obra. Oaxaca, México 2016</h4>
             </div>
             <div className="slide">
                 <img src={a5} />
-                <h4><strong>Estrellas Enterradas</strong> Oaxaca, México 2016</h4>
+                <h4><strong>Estrellas Enterradas</strong><br></br>Oaxaca, México 2016</h4>
             </div>
             <div className="slide">
                 <img src={a6} />
-                <h4><strong>Estrellas Enterradas</strong> Oaxaca, México 2016</h4>
+                <h4><strong>Estrellas Enterradas</strong><br></br>Oaxaca, México 2016</h4>
             </div>
             <div className="slide">
                 <img src={a7} />
-                <h4><strong>Ítaca. Bitácora de Viaje</strong> Córdoba, Veracruz 2019 </h4>
+                <h4><strong>Ítaca. Bitácora de Viaje</strong><br></br>Córdoba, Veracruz 2019 </h4>
             </div>
             <div className="slide">
                 <img src={a8} />
-                <h4><strong>Ítaca. Bitácora de Viaje</strong> Xalapa, Veracruz 2017</h4>
+                <h4><strong>Ítaca. Bitácora de Viaje</strong><br></br>Xalapa, Veracruz 2017</h4>
             </div>
             <div className="slide">
                 <img src={a9} />
-                <h4><strong>Ítaca. Bitácora de Viaje</strong> Xalapa, Veracruz 2017</h4>
+                <h4><strong>Ítaca. Bitácora de Viaje</strong><br></br>Xalapa, Veracruz 2017</h4>
             </div>
             <div className="slide">
                 <img src={a10} />
-                <h4><strong>Ítaca. Bitácora de Viaje</strong> Córdoba, Veracruz 2019</h4>
+                <h4><strong>Ítaca. Bitácora de Viaje</strong><br></br>Córdoba, Veracruz 2019</h4>
             </div>
             <div className="slide">
                 <img src={a11} />
-                <h4><strong>Ítaca. Bitácora de Viaje</strong> Xalapa, Veracruz 2017</h4>
+                <h4><strong>Ítaca. Bitácora de Viaje</strong><br></br>Xalapa, Veracruz 2017</h4>
             </div>
             <div className="slide">
                 <img src={a12} />
-                <h4><strong>Ítaca. Bitácora de Viaje</strong> Muestra Estatal de Teatro, Veracruz 2017</h4>
+                <h4><strong>Ítaca. Bitácora de Viaje</strong><br></br>Muestra Estatal de Teatro, Veracruz 2017</h4>
             </div>
             <div className="slide">
                 <img src={a13} />
-                <h4><strong>Mujeres En El Encierro</strong> Oaxaca, México 2017</h4>
+                <h4><strong>Mujeres En El Encierro</strong><br></br>Oaxaca, México 2017</h4>
             </div>
             <div className="slide">
                 <img src={a14} />
-                <h4><strong>Mujeres En El Encierro</strong> CDMX 2017</h4>
+                <h4><strong>Mujeres En El Encierro</strong><br></br>CDMX 2017</h4>
             </div>
             <div className="slide">
                 <img src={a15} />
-                <h4><strong>Mujeres En El Encierro</strong> Oaxaca, México 2017</h4>
+                <h4><strong>Mujeres En El Encierro</strong><br></br>Oaxaca, México 2017</h4>
             </div>
             <div className="slide">
                 <img src={a16} />
-                <h4><strong>Mujeres En El Encierro</strong> Programa de mano</h4>
+                <h4><strong>Mujeres En El Encierro</strong> <br></br>rograma de mano</h4>
             </div>
             <div className="slide">
                 <img src={a17} />
-                <h4><strong>Laura Vetchínova</strong> 1990</h4>
+                <h4><strong>Laura Vetchínova</strong><br></br>1990</h4>
             </div>
             <div className="slide">
                 <img src={a18} />
-                <h4><strong>-CHAYKA-</strong> Oaxaca, México 2020</h4>
+                <h4><strong>-CHAYKA-</strong><br></br>Oaxaca, México 2020</h4>
             </div>
             <div className="slide">
                 <img src={a19} />
-                <h4><strong>-CHAYKA-</strong> Xalapa, Veracruz 2021 </h4>
+                <h4><strong>-CHAYKA-</strong><br></br>Xalapa, Veracruz 2021 </h4>
             </div>
             <div className="slide">
                 <img src={a20} />
-                <h4><strong>-CHAYKA-</strong> Pocoapoco Oaxaca, México 2022</h4>
+                <h4><strong>-CHAYKA-</strong><br></br>Pocoapoco Oaxaca, México 2022</h4>
             </div>
             <div className="slide">
                 <img src={a21} />

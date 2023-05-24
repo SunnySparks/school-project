@@ -11,40 +11,81 @@ import img7 from '../../images/perfsm/perf7.webp';
 import img8 from '../../images/perfsm/perf8.webp';
 import Header from '../../Components/Layout/Header';
 import Fade from 'react-reveal/Fade';
+import { Link } from 'gatsby';
 
 const SaberMas = () => {
   return (
     <>
     <Header />
     <Fade left duration={2800}>
-        <div id="perfTitle">
-            <h2>Performer</h2>
-        </div>
+    <div className='subTitleCont'>
+      <h2 className="subpageTitle">Proyectos Destacados</h2>
+      </div>
         <div id="perfGrid">
             <div id="gridCont">
                 <div id="grid1">
+                    <Link  href="../GBS/Gbs" className="gridLink">
+                    <div class="projectTitle">
+                        <h2>Gente Bañándose Sola</h2>
+                    </div>
                     <img src={img1}></img>
+                    </Link>
                 </div>
                 <div id="grid2">
-                    <img src={img2}></img>
+                    <div className="gridLink">
+                        <div class="projectTitle">
+                            <h2>proyecto 2</h2>
+                        </div>
+                        <img src={img2}></img>
+                    </div>
                 </div>
                 <div id="grid3">
-                    <img src={img3}></img>
+                    <div className="gridLink">
+                        <div class="projectTitle">
+                            <h2>proyecto 3</h2>
+                        </div>
+                        <img src={img3}></img>
+                    </div>
                 </div>
                 <div id="grid4">
-                    <img src={img4}></img>
+                    <div className="gridLink">
+                        <div class="projectTitle">
+                            <h2>proyecto 4</h2>
+                        </div>
+                        <img src={img4}></img>
+                    </div>
                 </div>
                 <div id="grid5">
-                    <img src={img5}></img>
+                    <div className="gridLink">
+                        <div class="projectTitle">
+                            <h2>proyecto 5</h2>
+                        </div>
+                        <img src={img5}></img>
+                    </div>
                 </div>
                 <div id="grid6">
-                    <img src={img6}></img>
+                    <div className="gridLink">
+                        <div class="projectTitle">
+                            <h2>proyecto 6</h2>
+                        </div>
+                        <img src={img6}></img>
+                    </div>
                 </div>
                 <div id="grid7">
-                    <img src={img7}></img>
+                    <div className="gridLink">
+                        <div class="projectTitle">
+                            <h2>proyecto 7</h2>
+                        </div>
+                        <img src={img7}></img>
+                    </div>
                 </div>
                 <div id="grid8">
-                    <img src={img8}></img>
+                    <div className="gridLink">
+                        <div class="projectTitle">
+                            <h2>proyecto 8</h2>
+                        </div>
+                        <img src={img8}></img>
+                    </div>
                 </div>
             </div>
         </div>
