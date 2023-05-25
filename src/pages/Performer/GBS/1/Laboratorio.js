@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../style.scss';
+import Header from '../../../../Components/Layout/Header';
 import a0 from '../../../../images/perfsm/gbs/1/0.webp';
 import a1 from '../../../../images/perfsm/gbs/1/1.webp';
 import a2 from '../../../../images/perfsm/gbs/1/2.webp';
@@ -20,6 +21,8 @@ import a15 from '../../../../images/perfsm/gbs/1/15.webp';
 
 const Laboratorio = () => {
   return (
+    <>
+    <Header />
     <div id="laboCont" className='gridCont'>
         <div className='subTitleCont'>
             <h2 className="subpageTitle">Laboratorio de intervención al espacio privado</h2>
@@ -110,6 +113,7 @@ const Laboratorio = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

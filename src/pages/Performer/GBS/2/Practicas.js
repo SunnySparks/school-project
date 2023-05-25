@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../style.scss';
+import Header from '../../../../Components/Layout/Header';
 import a1 from '../../../../images/perfsm/gbs/2/1.webp';
 import a2 from '../../../../images/perfsm/gbs/2/2.webp';
 import a3 from '../../../../images/perfsm/gbs/2/3.webp';
@@ -47,6 +48,8 @@ import a43 from '../../../../images/perfsm/gbs/2/43.webp';
 
 const Practicas = () => {
   return (
+    <>
+    <Header />
     <div className='gridCont'>
         <div className='subTitleCont'>
             <h2 className="subpageTitle">Prácticas a la vía pública e intervenciones a espacios privados</h2>
@@ -277,6 +280,7 @@ const Practicas = () => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 

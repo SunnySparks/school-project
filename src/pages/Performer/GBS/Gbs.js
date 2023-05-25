@@ -2,10 +2,11 @@ import React from 'react';
 import '../../../styles/global.scss';
 import '../style.scss';
 import { Link } from 'gatsby';
+import Header from '../../../Components/Layout/Header';
 import a1 from '../../../images/perfsm/gbs/p1.webp';
 import a2 from '../../../images/perfsm/gbs/p2.webp';
-import a3 from '../../../images/actrizsm/3.webp';
-import a4 from '../../../images/actrizsm/4-1.webp';
+import a3 from '../../../images/perfsm/gbs/p3.webp';
+import a4 from '../../../images/perfsm/gbs/p4.webp';
 import a5 from '../../../images/actrizsm/5_f.webp';
 import a6 from '../../../images/actrizsm/6_f.webp';
 import a7 from '../../../images/actrizsm/7.webp';
@@ -17,6 +18,8 @@ import a12 from '../../../images/actrizsm/12.webp';
 
 const Gbs = () => {
   return (
+    <>
+    <Header />
     <div id="genteBS">
       <div className='subTitleCont'>
         <h2 className="subpageTitle">Gente Bañándose Sola</h2>
@@ -44,18 +47,24 @@ const Gbs = () => {
               <img src={a2} />
             </div>
           </Link>
-          <div className='inner'>
-          <div class="innertitle">
-              <h2>Proyecto 3</h2>
+          <Link className='inner' href="../3/Festival">
+            <div class="innertitle">
+              <h3>Festival "Teatro para el fin del mundo"</h3>
+              <h2>Tampico, Tamaulipas 2017</h2>
             </div>
-            <img src={a3} />
-          </div>
-          <div className='inner'>
-          <div class="innertitle">
-              <h2>Proyecto 4</h2>
+            <div class="innerimage">
+              <img src={a3} />
             </div>
-            <img src={a4} />
-          </div>
+          </Link>
+          <Link className='inner' href="../4/TFM">
+            <div class="innertitle">
+              <h3>Festival "Teatro para el fin del mundo"</h3>
+              <h2>Córdoba, Argentina</h2>
+            </div>
+            <div class="innerimage">
+              <img src={a4} />
+            </div>
+          </Link>
         </div>
         <div id="grid2">
         <div className='inner'>
@@ -85,6 +94,7 @@ const Gbs = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
