@@ -7,7 +7,7 @@ import a1 from '../../../images/perfsm/gbs/p1.webp';
 import a2 from '../../../images/perfsm/gbs/p2.webp';
 import a3 from '../../../images/perfsm/gbs/p3.webp';
 import a4 from '../../../images/perfsm/gbs/p4.webp';
-import a5 from '../../../images/actrizsm/5_f.webp';
+import a5 from '../../../images/perfsm/gbs/p5.webp';
 import a6 from '../../../images/actrizsm/6_f.webp';
 import a7 from '../../../images/actrizsm/7.webp';
 import a8 from '../../../images/actrizsm/8.webp';
@@ -67,12 +67,15 @@ const Gbs = () => {
           </Link>
         </div>
         <div id="grid2">
-        <div className='inner'>
-        <div class="innertitle">
-              <h2>Proyecto 5</h2>
+          <Link className='inner' href="../5/BSAR">
+            <div class="innertitle">
+              <h3></h3>
+              <h2>Buenos Aires, Argentina</h2>
             </div>
-            <img src={a5} />
-          </div>
+            <div class="innerimage">
+              <img src={a5} />
+            </div>
+          </Link>
           <div className='inner'>
           <div class="innertitle">
               <h2>Proyecto 6</h2>
