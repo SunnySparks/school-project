@@ -32,12 +32,12 @@ const SaberMas = () => {
                     </Link>
                 </div>
                 <div id="grid2">
-                    <div className="gridLink">
+                    <Link  href="../Galeria430/Galeria" className="gridLink">
                         <div class="projectTitle">
-                            <h2>proyecto 2</h2>
+                            <h2>Galería 4:30</h2>
                         </div>
                         <img src={img2}></img>
-                    </div>
+                    </Link>
                 </div>
                 <div id="grid3">
                     <div className="gridLink">

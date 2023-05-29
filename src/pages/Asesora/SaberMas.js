@@ -14,17 +14,17 @@ const SaberMas = () => {
     <Header />
         <Fade left duration={2800}>
             <div className='subTitleCont'>
-                <h2 className="subpageTitle">Trabajos Destacados</h2>
+                <h2 className="subpageTitle">Asesora Creativa Y Docente</h2>
             </div>
             <div id="perfGrid">
                 <div id="gridCont">
                     <div id="grid1">
-                        <Link  href="../GBS/Gbs" className="gridLink">
+                        <div className="gridLink">
                         <div class="projectTitle">
-                            <h2>Gente Bañándose Sola</h2>
+                            <h2>Proyecto1</h2>
                         </div>
                         <img src={img1}></img>
-                        </Link>
+                        </div>
                     </div>
                     <div id="grid2">
                         <div className="gridLink">

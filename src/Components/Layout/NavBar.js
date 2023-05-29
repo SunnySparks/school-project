@@ -10,9 +10,9 @@ const navOptions = [
   { link: '/Actriz/SaberMas', text: 'Actriz' },
   { link: '/Directora/SaberMas', text: 'Directora Escénica' },
   { link: '/Performer/SaberMas', text: 'Performer' },
-  { link: '/asesoraCreativa', text: 'Asesora Creativa' },
-  { link: '/sobreMi', text: 'Sobre Mi' },
-  { link: '/#', text: 'Contacto' },
+  { link: '/Asesora/SaberMas', text: 'Asesora Creativa' },
+  //{ link: '/sobreMi', text: 'Sobre Mi' },
+  //{ link: '/#', text: 'Contacto' },
 ];
 
 const NavBar = () => {

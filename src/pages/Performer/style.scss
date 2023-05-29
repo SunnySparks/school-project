@@ -58,7 +58,7 @@ opacity: 0;
         #grid8 { grid-area: 4 / 2 / 5 / 3; }
     }
 }
-#genteBS{
+.perfCont{
     .subTitleCont{
         max-width: 300px;
         @media(min-width: 768px){
@@ -72,13 +72,18 @@ opacity: 0;
         }
     }
 }
-#genteBS, #laboCont, .gridCont{
+#galeriasubtitle{
+    max-width: 500px;
+    font-size: 20px;
+    color: #fff;
+}
+.perfCont, #laboCont, .gridCont{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    #gbsGrid, #laboGrid, .gridOuter{
+    .perfGrid, #laboGrid, .gridOuter{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -170,7 +175,6 @@ opacity: 0;
                     perspective: 100px;
                     z-index: -1;
                     flex-direction: column;
-                    align-items: center;
                     justify-content: center;
                     transition: all 0.5s ease-in-out;
                     overflow: hidden;
@@ -181,12 +185,39 @@ opacity: 0;
                         z-index: -1;
                     }
                 }
+                .innerText{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 200px;
+                    width: 250px;
+                    position: absolute;
+                    padding: 0px;
+                    background: #00000061;
+                    border-radius: 10px;
+                    h4{
+                        color: #fff;
+                        opacity: 0;
+                        transition: all 0.3s ease-in-out;
+                    }
+                    .title8{
+                        margin: 5px;
+                    }
+                    p{
+                        color: #fff;
+                        opacity: 0;
+                        transition: all 0.3s ease-in-out;
+                        font-size: 12px;
+                    }
+                }
                 &:hover{
                     z-index: 99;
                     transform: translateZ(20px) scale(1.8) translateY(-90px);
-                    .innerimage{
-                        //transform: scale(1.1);
-                        //z-index: 10;
+                    .innerText{
+                        h4, p{
+                            opacity: 1;
+                        }
                     }
                 }
             }
