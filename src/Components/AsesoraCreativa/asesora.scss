@@ -1,0 +1,44 @@
+#asesoraCont{
+    padding: 20px;
+    h2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        font-size: 25px;
+        @media(min-width: 768px){
+            font-size: 35px;
+        }
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        @media(min-width: 992px){
+            flex-direction: row-reverse;
+        }
+        #imagery{
+            @media(min-width: 992px){
+                width: 60%;
+            }
+            #imgCont{
+                display: flex;
+                justify-content: center;
+                img{
+                    max-width: 50%;
+                }
+            }
+        }
+        #aContent{
+            padding: 20px;
+            @media(min-width: 992px){
+                width: 40%;
+            }
+            #textCont{
+                box-sizing: border-box;
+                color: #fff;
+            }
+        }
+    }
+}
