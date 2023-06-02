@@ -10,8 +10,10 @@ import img6 from '../../images/perfsm/perf6.webp';
 import img7 from '../../images/perfsm/perf7.webp';
 import img8 from '../../images/perfsm/perf8.webp';
 import Header from '../../Components/Layout/Header';
+import Footer from '../../Components/Layout/Footer';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'gatsby';
+import '../../styles/global.scss'
 
 const SaberMas = () => {
   return (
@@ -19,13 +21,13 @@ const SaberMas = () => {
     <Header />
     <Fade left duration={2800}>
     <div className='subTitleCont'>
-      <h2 className="subpageTitle">Proyectos Destacados</h2>
+      <h2 className="subpageTitle webfont">Proyectos Destacados</h2>
       </div>
         <div id="perfGrid">
             <div id="gridCont">
                 <div id="grid1">
                     <Link  href="../GBS/Gbs" className="gridLink">
-                    <div class="projectTitle">
+                    <div className="projectTitle">
                         <h2>Gente Bañándose Sola</h2>
                     </div>
                     <img src={img1}></img>
@@ -90,6 +92,7 @@ const SaberMas = () => {
             </div>
         </div>
     </Fade>
+    <Footer />
     </>
   )
 }

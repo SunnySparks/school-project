@@ -10,6 +10,7 @@ import DirectoraEscenica from '../Components/DirectoraEscenica';
 import Testimonios from '../Components/Testimonios';
 import AlMomento from '../Components/AlMomento';
 import SobreMi from '../Components/SobreMi';
+import Footer from '../Components/Layout/Footer'
 
 const Index = () => {
   return (
@@ -21,7 +22,8 @@ const Index = () => {
       <Performer />
       <AsesoraCreativa />
       <Testimonios />
-      <AlMomento />     
+      <AlMomento /> 
+      <Footer />    
     </Layout>
   );
 };

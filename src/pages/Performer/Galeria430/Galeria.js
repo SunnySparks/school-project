@@ -3,6 +3,7 @@ import '../../../styles/global.scss';
 import '../style.scss';
 import { Link } from 'gatsby';
 import Header from '../../../Components/Layout/Header';
+import Footer from '../../../Components/Layout/Footer';
 import a1 from '../../../images/perfsm/g430/1.webp';
 import a2 from '../../../images/perfsm/g430/2.webp';
 import a3 from '../../../images/perfsm/g430/3.webp';
@@ -51,6 +52,7 @@ const Galeria = () => {
             </div>
         </div>
     </div>
+    <Footer />
     </>
   )
 }

@@ -3,6 +3,7 @@ import '../../../styles/global.scss';
 import '../style.scss';
 import { Link } from 'gatsby';
 import Header from '../../../Components/Layout/Header';
+import Footer from '../../../Components/Layout/Footer';
 import a1 from '../../../images/perfsm/gbs/p1.webp';
 import a2 from '../../../images/perfsm/gbs/p2.webp';
 import a3 from '../../../images/perfsm/gbs/p3.webp';
@@ -11,7 +12,7 @@ import a5 from '../../../images/perfsm/gbs/p5.webp';
 import a6 from '../../../images/perfsm/gbs/p6.webp';
 import a7 from '../../../images/perfsm/gbs/p7.webp';
 import a8 from '../../../images/perfsm/gbs/p8.webp';
-
+import imgdwl from '../../../images/perfsm/gbs/gbsdwl.jpg';
 
 const Gbs = () => {
   return (
@@ -103,7 +104,21 @@ const Gbs = () => {
           </Link>
         </div>
       </div>
+      <div id="GBSdownload" className='subTitleCont'>
+        <div id="GBSTitle">
+          <h2 className="subpageTitle">¿Nos bañamos juntos?</h2>
+        </div>
+        <div id="GBSdwl">
+          <a href="https://issuu.com/disnomia.escenico/docs/gbs_2023_1_" target="_blank">
+            <img src={imgdwl} />
+          </a>
+        </div>
+        <div className="home-buttons webfont">
+        <a href="mailto:#">Adquirir Versión Física</a>
+          </div>
+      </div>
     </div>
+    <Footer />
     </>
   )
 }

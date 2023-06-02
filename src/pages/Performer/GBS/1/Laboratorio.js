@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../style.scss';
 import Header from '../../../../Components/Layout/Header';
+import Footer from '../../../../Components/Layout/Footer';
 import a0 from '../../../../images/perfsm/gbs/1/0.webp';
 import a1 from '../../../../images/perfsm/gbs/1/1.webp';
 import a2 from '../../../../images/perfsm/gbs/1/2.webp';
@@ -113,6 +114,7 @@ const Laboratorio = () => {
         </div>
       </div>
     </div>
+    <Footer />
     </>
   )
 }

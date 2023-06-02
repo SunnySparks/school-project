@@ -39,7 +39,7 @@ const Actriz = () => {
           </div>
         </div>
         <div id="actrizContent">
-          <div id="textCont">
+          <div id="textCont" className="webfont2">
             <p>Estudió profesionalmente en la Academia de Arte Teatral de San Petersburgo, Rusia con especialidad en actuación dramática para teatro y cine. 
             (2009-2014)</p>
             <p>Confía en la verdad como la base de todo, sin importar el género o estilo de la pieza. La escuela del realismo ruso le ha brindado a Laura solidez y estructura en sus actuaciones y proyectos devinientes.  
@@ -51,7 +51,7 @@ const Actriz = () => {
             <iframe width="560" height="315" src="https://www.youtube.com/embed/WXiDT-7Hmmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
           <div className="home-buttons webfont">
-            <Link href="./Actriz/SaberMas">Saber Más</Link>
+            <Link href="/Actriz/SaberMas">Saber Más</Link>
           </div>
         </div>
       </div>

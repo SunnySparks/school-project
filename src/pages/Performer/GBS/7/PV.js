@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../style.scss';
 import Header from '../../../../Components/Layout/Header';
+import Footer from '../../../../Components/Layout/Footer';
 import a1 from '../../../../images/perfsm/gbs/7/1.webp';
 import a2 from '../../../../images/perfsm/gbs/7/2.webp';
 import a3 from '../../../../images/perfsm/gbs/7/3.webp';
@@ -322,6 +323,7 @@ const PV = () => {
             </div>
         </div>
     </div>
+    <Footer />
     </>
   )
 }

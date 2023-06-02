@@ -23,6 +23,7 @@ import a20 from '../../images/actrizsm/20.webp';
 import a21 from '../../images/actrizsm/21.webp';
 import a22 from '../../images/actrizsm/22.webp';
 import Header from '../../Components/Layout/Header';
+import Footer from '../../Components/Layout/Footer';
 
 const SaberMas = () => {
     const [isActive1, setIsActive1] = useState(false);
@@ -229,6 +230,7 @@ const SaberMas = () => {
         </div>
         </div>
     </div>
+    <Footer />
     </>
   )
 }

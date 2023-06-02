@@ -56,11 +56,19 @@
       justify-content: start;
       align-items: center;
       h1{
+        display: none;
         transition: all 0.3s ease-in-out;
         animation: fadeIn 1.5s;
         animation-name: fadeInBottom;
         @media(min-width: 1280px){
           font-size: 50px;
+        }
+      }
+      img{
+        max-width: 100%;
+        width: 300px;
+        @media(min-width: 768px){
+          width: 500px;
         }
       }
     }

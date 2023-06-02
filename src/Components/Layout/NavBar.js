@@ -6,7 +6,7 @@ import '../../styles/global.scss';
 import '../../pages/Actriz/SaberMas'
 
 const navOptions = [
-  { link: '/', text: 'Inicio' },
+  { link: '/Index', text: 'Inicio' },
   { link: '/Actriz/SaberMas', text: 'Actriz' },
   { link: '/Directora/SaberMas', text: 'Directora Escénica' },
   { link: '/Performer/SaberMas', text: 'Performer' },

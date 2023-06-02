@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../style.scss';
 import Header from '../../../../Components/Layout/Header';
+import Footer from '../../../../Components/Layout/Footer';
 import a1 from '../../../../images/perfsm/gbs/5/1.webp';
 import a2 from '../../../../images/perfsm/gbs/5/2.webp';
 import a3 from '../../../../images/perfsm/gbs/5/3.webp';
@@ -137,6 +138,7 @@ const BSAR = () => {
             </div>
         </div>
     </div>
+    <Footer />
     </>
   )
 }
