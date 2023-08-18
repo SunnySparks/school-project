@@ -11,7 +11,7 @@
     to { opacity: 1 }
   }
 
-#sobreMiCont{
+#AboutCont{
     //background: #88c2f5;
     background: #fff;
     display: flex;
@@ -46,5 +46,10 @@
                 box-sizing: border-box;
             }
         }
+    }
+    #btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

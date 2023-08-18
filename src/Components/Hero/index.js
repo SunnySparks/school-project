@@ -13,8 +13,8 @@ const Hero = () => {
           <img src={img} />
         </div>
         <div id='linksCont'>
-          <Link className='navLink webfont' href='#actrizCont'>
-            <span>{`Galería`}</span>
+          <Link className='navLink webfont' href='#ofertaCont'>
+            <span>{`Oferta Académica`}</span>
             <div className='liquid'></div>
           </Link>
           <Link className='navLink webfont' href={`#directoraCont`}>

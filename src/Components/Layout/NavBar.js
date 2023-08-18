@@ -7,11 +7,11 @@ import '../../pages/Actriz/SaberMas'
 
 const navOptions = [
   { link: '/Index', text: 'Inicio' },
-  { link: '/Galeria/SaberMas', text: 'Galeria' },
+  { link: '/OfertaAcademica/SaberMas', text: 'Oferta Académica' },
   { link: '/Nuestra/SaberMas', text: 'Nuestra Escuela' },
   { link: '/Premios/SaberMas', text: 'Premios' },
   //{ link: '/Asesora/SaberMas', text: 'Asesora Creativa' },
-  //{ link: '/sobreMi', text: 'Sobre Mi' },
+  //{ link: '/About', text: 'Acerca De' },
   //{ link: '/#', text: 'Contacto' },
 ];
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import './SobreMi.scss'
+import './About.scss'
 import '../../styles/global.scss';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'gatsby';
@@ -8,10 +8,10 @@ import mision from '../../images/mision.png'
 import prof from '../../images/professor.png'
 import inv from '../../images/research.png'
 
-const SobreMi = () => {
+const About = () => {
   return (
     <div>
-      <div id="sobreMiCont">
+      <div id="AboutCont">
         <div id="valorescont">
           <div class="valinner" id="about">
             <div className="title">
@@ -80,4 +80,4 @@ const SobreMi = () => {
   )
 }
 
-export default SobreMi
+export default About

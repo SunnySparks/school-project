@@ -1,0 +1,36 @@
+#ofertaCont {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background: #88c3f5;
+  #ofertaTitle {
+    h2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      color: #000;
+      font-size: 35px;
+      text-shadow: 4px 3px 0px #fff, 2px 2px 2px rgba(255, 255, 255, 255);
+      text-transform: uppercase;
+    }
+  }
+  #ofertaContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 992px) {
+      width: 100%;
+      padding: 20px;
+    }
+    @media (min-width: 1024px) {
+      width: 800px;
+    }
+    #textCont {
+      box-sizing: border-box;
+      color: #fff;
+      //width: 380px;
+      padding: 20px;
+    }
+  }
+}
