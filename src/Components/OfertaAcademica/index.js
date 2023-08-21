@@ -25,32 +25,52 @@ const OfertaAcademica = () => {
           límites. Como un faro de excelencia en la educación, estamos
           encantados de extender una invitación exclusiva para ti.
         </h4>
-        <FontAwesomeIcon icon="check-square" />
-        Your <FontAwesomeIcon icon="coffee" /> is hot and ready!
+        <h4 className="webfont2">
+          🌐 Profesorado incomparable: Sumérgete en un mundo de proezas
+          intelectuales, guiado por un distinguido profesorado compuesto por
+          expertos líderes y pioneros del pensamiento en sus campos.
+        </h4>
+        <h4 className="webfont2">
+          📚 Programas de vanguardia: Elige entre una amplia gama de programas
+          innovadores y meticulosamente elaborados, diseñados para equiparte con
+          las habilidades y conocimientos necesarios para prosperar en los
+          dinámicos paisajes de hoy y mañana.
+        </h4>
+        <h4 className="webfont2">
+          🌍 Perspectivas globales: Sumérgete en una comunidad culturalmente
+          diversa e inclusiva, fomentando un rico tapiz de perspectivas que
+          ampliarán tu comprensión del mundo y darán forma a tu mentalidad
+          global.
+        </h4>
+        <h4 className="webfont2">
+          🔬 Instalaciones de vanguardia: Libera tu potencial dentro de nuestro
+          campus moderno y tecnológicamente avanzado, que cuenta con
+          laboratorios de clase mundial, bibliotecas y espacios de colaboración
+          para mejorar tu experiencia de aprendizaje.
+        </h4>
+        <h4 className="webfont2">
+          🌱 Crecimiento personalizado: Nuestro compromiso con tu éxito se
+          extiende más allá del aula, con tutorías personalizadas y apoyo para
+          nutrir tu crecimiento académico y personal.
+        </h4>
+        <h4 className="webfont2">
+          🎉 Vibrante vida en el campus: Sumérgete en un vibrante tapiz de
+          actividades extracurriculares, clubes y eventos que prometen
+          enriquecer tu experiencia universitaria y crear recuerdos para toda la
+          vida.
+        </h4>
       </div>
       <div id="ofertaContent">
-        <div id="textCont" className="webfont2">
-          <p>
-            Estudió profesionalmente en la Academia de Arte Teatral de San
-            Petersburgo, Rusia con especialidad en actuación dramática para
-            teatro y cine. (2009-2014)
-          </p>
-          <p>
-            Confía en la verdad como la base de todo, sin importar el género o
-            estilo de la pieza. La escuela del realismo ruso le ha brindado a
-            Laura solidez y estructura en sus actuaciones y proyectos
-            devinientes.
-          </p>
-          <p>
-            Laura fusiona la escuela actoral clásica rusa con la contemporánea
-            mexicana, ofreciendo así: un estilo realista que permite la
-            identificación con los personajes, y a su vez matices extravagantes
-            de la escena contemporánea.
-          </p>
+        <div className="webfont2 textCont">
+          <div className="buttonDrowpdown">
+            <div className="buttonInner"></div>
+          </div>
         </div>
         <div className="home-buttons webfont">
           <Link href="/Actriz/SaberMas">Saber Más</Link>
         </div>
+        <FontAwesomeIcon icon="check-square" />
+        Your <FontAwesomeIcon icon="coffee" /> is hot and ready!
       </div>
     </div>
   );

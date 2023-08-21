@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import NavBar from './NavBar';
-import '../../styles/global.scss';
-import '../../styles/header.scss';
+import React, { useState } from "react";
+import NavBar from "./NavBar";
+import "../../styles/global.scss";
+import "../../styles/header.scss";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,33 +12,30 @@ const Header = () => {
 
   return (
     <div>
-      <div className={`header ${isOpen ? 'open' : null}`}>
-        <button className='fancy-burger' onClick={handleToggle}>
+      <div className={`header ${isOpen ? "open" : null}`}>
+        <button className="fancy-burger" onClick={handleToggle}>
           <span
             className={`rectangle rectangle--top rectangle--small ${
-              isOpen ? 'open' : null
+              isOpen ? "open" : null
             }`}
           ></span>
           <span
-            className={`rectangle rectangle--middle ${isOpen ? 'open' : null}`}
+            className={`rectangle rectangle--middle ${isOpen ? "open" : null}`}
           ></span>
           <span
             className={`rectangle rectangle--bottom rectangle--small ${
-              isOpen ? 'open' : null
+              isOpen ? "open" : null
             }`}
           ></span>
         </button>
-        <span className={`box ${isOpen ? 'open' : null}`}>
+        <span className={`box ${isOpen ? "open" : null}`}>
           <NavBar />
         </span>
-        <div id='headerSocial'>
-          <div class='socialInner'></div>
+        <div id="headerSocial">
+          <div class="socialInner"></div>
         </div>
-        <ul>
-          <li></li>
-        </ul>
       </div>
-      <div className='headerTop'>
+      <div className="headerTop">
         <NavBar />
       </div>
     </div>
