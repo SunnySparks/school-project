@@ -6,12 +6,51 @@ import Fade from "react-reveal/Fade";
 import ReactDOM from "react-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCheckSquare,
+  faCoffee,
+  faLanguages,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 
 library.add(fab, faCheckSquare, faCoffee);
 
 const OfertaAcademica = () => {
+  const [isClassAdded, setIsClassAdded] = useState(false);
+  const [isClassAdded2, setIsClassAdded2] = useState(false);
+  const [isClassAdded3, setIsClassAdded3] = useState(false);
+  const [isClassAdded4, setIsClassAdded4] = useState(false);
+  const [isClassAdded5, setIsClassAdded5] = useState(false);
+  const [isOpen1, setIsOpen1] = useState(false);
+  //const [isOpen2, setIsOpen2] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen1(!isOpen1);
+  };
+  /*const toggleDropdown2 = () => {
+    setIsOpen2(!isOpen2);
+  };
+  const handleClick = () => {
+    const element = document.getElementById("list2");
+    element.classList.add("dropdownList");
+  }; */
+
+  const handleClick = () => {
+    setIsClassAdded(!isClassAdded);
+  };
+  const handleClick2 = () => {
+    setIsClassAdded2(!isClassAdded2);
+  };
+  const handleClick3 = () => {
+    setIsClassAdded3(!isClassAdded3);
+  };
+  const handleClick4 = () => {
+    setIsClassAdded4(!isClassAdded4);
+  };
+  const handleClick5 = () => {
+    setIsClassAdded5(!isClassAdded5);
+  };
   return (
     <div id="ofertaCont">
       <div id="ofertaTitle">
@@ -63,7 +102,111 @@ const OfertaAcademica = () => {
       <div id="ofertaContent">
         <div className="webfont2 textCont">
           <div className="buttonDrowpdown">
-            <div className="buttonInner"></div>
+            <div className="buttonInner">
+              <button onClick={handleClick}>
+                <FontAwesomeIcon icon={"language"} />
+                <FontAwesomeIcon icon={"fa-language"} />
+                <h4>🈵🆎Licenciatura en Idiomas</h4>
+              </button>
+              <ul className={`dropdown-list ${isClassAdded ? "open" : ""}`}>
+                <li>
+                  <h2>elemento1</h2>
+                </li>
+                <li>
+                  <h2>elemento2</h2>
+                </li>
+                <li>
+                  <h2>elemento3</h2>
+                </li>
+                <li>
+                  <h2>elemento4</h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="buttonDrowpdown">
+            <div className="buttonInner">
+              <button onClick={handleClick2}>
+                <h4>🚑🏥Licenciatura en Enfermería</h4>
+              </button>
+              <ul className={`dropdown-list ${isClassAdded2 ? "open" : ""}`}>
+                <li>
+                  <h2>elemento1</h2>
+                </li>
+                <li>
+                  <h2>elemento2</h2>
+                </li>
+                <li>
+                  <h2>elemento3</h2>
+                </li>
+                <li>
+                  <h2>elemento4</h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="buttonDrowpdown">
+            <div className="buttonInner">
+              <button onClick={handleClick3}>
+                <h4>🧑‍🍳🍱Licenciatura en Gastronomía</h4>
+              </button>
+              <ul className={`dropdown-list ${isClassAdded3 ? "open" : ""}`}>
+                <li>
+                  <h2>elemento1</h2>
+                </li>
+                <li>
+                  <h2>elemento2</h2>
+                </li>
+                <li>
+                  <h2>elemento3</h2>
+                </li>
+                <li>
+                  <h2>elemento4</h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="buttonDrowpdown">
+            <div className="buttonInner">
+              <button onClick={handleClick4}>
+                <h4>📐🏗️Licenciatura en Arquitectura</h4>
+              </button>
+              <ul className={`dropdown-list ${isClassAdded4 ? "open" : ""}`}>
+                <li>
+                  <h2>elemento1</h2>
+                </li>
+                <li>
+                  <h2>elemento2</h2>
+                </li>
+                <li>
+                  <h2>elemento3</h2>
+                </li>
+                <li>
+                  <h2>elemento4</h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="buttonDrowpdown">
+            <div className="buttonInner">
+              <button onClick={handleClick5}>
+                <h4>🧑‍💻⚛️Ingeniería en Software</h4>
+              </button>
+              <ul className={`dropdown-list ${isClassAdded5 ? "open" : ""}`}>
+                <li>
+                  <h2>elemento1</h2>
+                </li>
+                <li>
+                  <h2>elemento2</h2>
+                </li>
+                <li>
+                  <h2>elemento3</h2>
+                </li>
+                <li>
+                  <h2>elemento4</h2>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="home-buttons webfont">
