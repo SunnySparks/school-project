@@ -33,23 +33,68 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: stretch;
+    }
     .valinner {
       display: flex;
       flex-direction: column;
-      width: 350px;
+      width: 320px;
       background: #fff;
       margin: 10px 0;
       box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+      @media (min-width: 768px) {
+        margin: 10px;
+      }
+      @media (min-width: 1024px) {
+        width: 400px;
+      }
+      @media (min-width: 1440px) and (max-width: 1449px) {
+        width: 320px;
+      }
       .title {
         display: flex;
         flex-direction: column;
         text-align: center;
+        .titleimg {
+          display: flex;
+          overflow: hidden;
+          img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            transition: all 0.3s ease-in-out;
+          }
+        }
+        h2 {
+          padding: 0 10px;
+          @media (min-width: 1024px) {
+            font-size: 30px;
+          }
+          @media (min-width: 1440px) and (max-width: 1449px) {
+            font-size: 20px;
+          }
+        }
       }
       .content {
         padding: 15px;
         box-sizing: border-box;
+        @media (min-width: 1024px) {
+          padding: 25px;
+        }
+      }
+      &:hover {
+        .title {
+          .titleimg {
+            img {
+              transform: scale(1.5);
+            }
+          }
+        }
       }
     }
   }

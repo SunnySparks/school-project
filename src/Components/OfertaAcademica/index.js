@@ -23,18 +23,10 @@ const OfertaAcademica = () => {
   const [isClassAdded4, setIsClassAdded4] = useState(false);
   const [isClassAdded5, setIsClassAdded5] = useState(false);
   const [isOpen1, setIsOpen1] = useState(false);
-  //const [isOpen2, setIsOpen2] = useState(false);
 
   const toggleDropdown = () => {
     setIsOpen1(!isOpen1);
   };
-  /*const toggleDropdown2 = () => {
-    setIsOpen2(!isOpen2);
-  };
-  const handleClick = () => {
-    const element = document.getElementById("list2");
-    element.classList.add("dropdownList");
-  }; */
 
   const handleClick = () => {
     setIsClassAdded(!isClassAdded);
@@ -110,16 +102,36 @@ const OfertaAcademica = () => {
               </button>
               <ul className={`dropdown-list ${isClassAdded ? "open" : ""}`}>
                 <li>
-                  <h2>elemento1</h2>
+                  <h2>
+                    🌍 ¡Enciende tu pasión por los idiomas! 📚<br></br> Abre la
+                    puerta a una carrera satisfactoria y gratificante con
+                    nuestro programa de Licenciatura en Idiomas.
+                  </h2>
                 </li>
                 <li>
-                  <h2>elemento2</h2>
+                  <h3>
+                    Explora diversas metodologías lingüísticas y matices
+                    culturales, preparándote para conectar con estudiantes de
+                    todo el mundo.
+                  </h3>
                 </li>
                 <li>
-                  <h2>elemento3</h2>
+                  <h3>
+                    En Sunshine University, somos más que una escuela; somos una
+                    comunidad de entusiastas de los idiomas que creen en el
+                    poder transformador de la educación. Únete a nosotros para
+                    dar forma al futuro en Idiomas e inspirar a la próxima
+                    generación de ciudadanos del mundo.
+                  </h3>
                 </li>
                 <li>
-                  <h2>elemento4</h2>
+                  <h3>
+                    ¿Listo para embarcarte en tu viaje para convertirte en un
+                    profesional de los idiomas? Póngase en contacto con nosotros
+                    para obtener más información sobre nuestro programa de
+                    Licenciatura en Idiomas y dar el primer paso hacia una
+                    carrera emocionante y significativa en la educación.
+                  </h3>
                 </li>
               </ul>
             </div>
@@ -131,16 +143,29 @@ const OfertaAcademica = () => {
               </button>
               <ul className={`dropdown-list ${isClassAdded2 ? "open" : ""}`}>
                 <li>
-                  <h2>elemento1</h2>
+                  <h2>
+                    🩺 ¡Emprende tu noble viaje en enfermería! 🌡️<br></br>{" "}
+                    Descubre el mundo de la compasión, el cuidado y la
+                    excelencia en la atención sanitaria con nuestro programa de
+                    Grado en Enfermería. En Sunshine University, estamos
+                    comprometidos a nutrir la próxima generación de héroes de la
+                    salud que harán una diferencia real en la vida de las
+                    personas y las comunidades.
+                  </h2>
                 </li>
                 <li>
-                  <h2>elemento2</h2>
+                  <h3>
+                    Aprenda de profesionales de enfermería experimentados que
+                    aportan una gran experiencia clínica y conocimientos al
+                    aula.
+                  </h3>
                 </li>
                 <li>
-                  <h2>elemento3</h2>
-                </li>
-                <li>
-                  <h2>elemento4</h2>
+                  <h3>
+                    Gain practical skills through clinical rotations and
+                    simulation exercises, ensuring you're well-prepared to excel
+                    in real-world healthcare settings.
+                  </h3>
                 </li>
               </ul>
             </div>
@@ -152,16 +177,29 @@ const OfertaAcademica = () => {
               </button>
               <ul className={`dropdown-list ${isClassAdded3 ? "open" : ""}`}>
                 <li>
-                  <h2>elemento1</h2>
+                  <h2>
+                    🍽️ ¡La excelencia culinaria te espera! 🌟<br></br>
+                    Da rienda suelta a tu pasión por el arte de la cocina y
+                    embárcate en un viaje delicioso con nuestro programa de
+                    Grado en Cocina. En Sunshine University, nos dedicamos a
+                    formar la próxima generación de artistas culinarios y chefs
+                    que crearán exquisitas experiencias culinarias que
+                    deleitarán los sentidos.
+                  </h2>
                 </li>
                 <li>
-                  <h2>elemento2</h2>
+                  <h3>
+                    Aprenda de célebres chefs y expertos culinarios apasionados
+                    por compartir su sabiduría culinaria y guiarle hacia la
+                    maestría culinaria.
+                  </h3>
                 </li>
                 <li>
-                  <h2>elemento3</h2>
-                </li>
-                <li>
-                  <h2>elemento4</h2>
+                  <h3>
+                    Perfeccione sus habilidades culinarias en las cocinas más
+                    modernas, adquiriendo experiencia práctica en la preparación
+                    de diversas cocinas de todo el mundo.
+                  </h3>
                 </li>
               </ul>
             </div>
@@ -173,16 +211,29 @@ const OfertaAcademica = () => {
               </button>
               <ul className={`dropdown-list ${isClassAdded4 ? "open" : ""}`}>
                 <li>
-                  <h2>elemento1</h2>
+                  <h2>
+                    🏛️ ¡Diseña el mundo del mañana con un título de
+                    Arquitectura! 🏗️<br></br> Da rienda suelta a tu genio
+                    creativo y embárcate en un viaje transformador con nuestro
+                    programa de Grado en Arquitectura. En la Sunshine
+                    University, estamos dedicados a nutrir a los arquitectos del
+                    futuro, que darán forma al mundo con diseños innovadores y
+                    soluciones sostenibles.
+                  </h2>
                 </li>
                 <li>
-                  <h2>elemento2</h2>
+                  <h3>
+                    Aprenda de arquitectos galardonados y líderes del sector a
+                    los que les apasiona orientar a la próxima generación de
+                    visionarios de la arquitectura.
+                  </h3>
                 </li>
                 <li>
-                  <h2>elemento3</h2>
-                </li>
-                <li>
-                  <h2>elemento4</h2>
+                  <h3>
+                    Desarrolla tus habilidades arquitectónicas a través de
+                    proyectos de estudio inmersivos, que te permitirán convertir
+                    tus ideas en estructuras tangibles e impactantes.
+                  </h3>
                 </li>
               </ul>
             </div>
@@ -194,16 +245,32 @@ const OfertaAcademica = () => {
               </button>
               <ul className={`dropdown-list ${isClassAdded5 ? "open" : ""}`}>
                 <li>
-                  <h2>elemento1</h2>
+                  <h2>
+                    🌐 ¡Forja el futuro digital con una Ingeniería en Software!
+                    <br></br>
+                    💻 Embárcate en un viaje dinámico en el mundo de la
+                    tecnología y la innovación con nuestro programa de Grado en
+                    Ingeniería de Software. En Sunshine University, estamos
+                    comprometidos a equiparlo con las habilidades y
+                    conocimientos necesarios para convertirse en un ingeniero de
+                    software competente, listo para dar forma al panorama
+                    digital.
+                  </h2>
                 </li>
                 <li>
-                  <h2>elemento2</h2>
+                  <h3>
+                    Aprenda de expertos líderes del sector e ingenieros de
+                    software experimentados a los que les apasiona compartir sus
+                    conocimientos y puntos de vista.
+                  </h3>
                 </li>
                 <li>
-                  <h2>elemento3</h2>
-                </li>
-                <li>
-                  <h2>elemento4</h2>
+                  <h3>
+                    Adquiere experiencia práctica en el mundo real a través de
+                    proyectos de codificación, prácticas y oportunidades de
+                    colaboración, para asegurarte de que estás preparado para
+                    trabajar desde el primer día.
+                  </h3>
                 </li>
               </ul>
             </div>
