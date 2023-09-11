@@ -11,12 +11,6 @@ $webfont2: "Poppins", sans-serif;
 .header {
   margin-bottom: 50px;
 }
-#AbtCont {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  background: #fff;
-}
 
 #aboutBanner {
   background: url(../../images/teacher.webp) no-repeat;
@@ -28,11 +22,13 @@ $webfont2: "Poppins", sans-serif;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding: 110px 0;
   .subpageTitle {
-    color: #fff;
-    font-size: 20px;
+    color: #000;
+    font-size: 30px;
     font-family: $webfont;
+    text-shadow: 4px 3px 0px #fff, 2px 2px 2px rgb(255, 255, 255);
+    text-transform: uppercase;
     @media (min-width: 768px) {
       font-size: 32px;
     }
@@ -41,5 +37,44 @@ $webfont2: "Poppins", sans-serif;
     color: #fff;
     font-size: 35px;
     font-family: $webfont2;
+  }
+}
+
+#AbtCont {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  .abtInner {
+    padding: 20px;
+    width: 400px;
+    .abtText {
+      font-family: $webfont;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h2 {
+        position: relative;
+        &:before {
+          content: "";
+          display: block;
+          position: absolute;
+          bottom: -10px;
+          background: #000;
+          height: 3px;
+          width: 100%;
+        }
+      }
+    }
+    .abtImg {
+      box-sizing: border-box;
+      display: flex;
+      img {
+        max-width: 100%;
+      }
+    }
   }
 }

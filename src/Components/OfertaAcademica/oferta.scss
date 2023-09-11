@@ -41,6 +41,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            @media (min-width: 768px) {
+              margin: auto;
+            }
             h4 {
               font-size: 22px;
             }
