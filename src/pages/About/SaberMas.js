@@ -8,6 +8,9 @@ import prof from "../../images/professor.png";
 import inv from "../../images/research.png";
 import com from "../../images/community.webp";
 import hub from "../../images/hub.webp";
+import cit from "../../images/cit.webp";
+import camp from "../../images/camp.webp";
+import join from "../../images/join.webp";
 
 const SaberMas = () => {
   return (
@@ -128,7 +131,9 @@ const SaberMas = () => {
               decisiones éticas.
             </p>
           </div>
-          <div className="abtImg">{/*<img src={com} />*/}</div>
+          <div className="abtImg">
+            <img src={cit} />
+          </div>
         </div>
         <div className="abtInner abtreverse">
           <div className="abtText">
@@ -144,7 +149,9 @@ const SaberMas = () => {
               el desarrollo personal.
             </p>
           </div>
-          <div className="abtImg">{/*<img src={com} />*/}</div>
+          <div className="abtImg">
+            <img src={camp} />
+          </div>
         </div>
         <div className="abtInner">
           <div className="abtText">
@@ -157,7 +164,9 @@ const SaberMas = () => {
               dentro de ti.
             </p>
           </div>
-          <div className="abtImg">{/*<img src={com} />*/}</div>
+          <div className="abtImg">
+            <img src={join} />
+          </div>
         </div>
       </div>
       <Footer />

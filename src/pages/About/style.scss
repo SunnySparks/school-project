@@ -47,17 +47,57 @@ $webfont2: "Poppins", sans-serif;
   justify-content: center;
   align-items: center;
   background: #fff;
+  @media (min-width: 768px) and (max-width: 1023px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @media (min-width: 1024px) {
+    width: 95%;
+    margin: auto;
+  }
   .abtInner {
-    padding: 20px;
-    width: 400px;
+    margin: 20px;
+    width: 370px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    @media (min-width: 768px) {
+      width: 330px;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    @media (min-width: 992px) {
+      width: 400px;
+    }
+    @media (min-width: 1024px) {
+      width: 100%;
+      flex-direction: row;
+      box-shadow: none;
+      height: auto;
+      margin: 40px 20px;
+    }
+    > * {
+      @media (min-width: 1024px) {
+        width: 100%;
+      }
+    }
     .abtText {
       font-family: $webfont;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      @media (min-width: 768px) {
+        margin-top: 20px;
+      }
+      @media (min-width: 1024px) {
+        padding: 20px;
+      }
       h2 {
         position: relative;
+        @media (min-width: 768px) {
+          font-size: 20px;
+        }
         &:before {
           content: "";
           display: block;
@@ -75,6 +115,11 @@ $webfont2: "Poppins", sans-serif;
       img {
         max-width: 100%;
       }
+    }
+  }
+  .abtreverse {
+    @media (min-width: 1024px) {
+      flex-direction: row-reverse;
     }
   }
 }
