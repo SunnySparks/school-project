@@ -11,13 +11,16 @@ import hub from "../../images/hub.webp";
 import cit from "../../images/cit.webp";
 import camp from "../../images/camp.webp";
 import join from "../../images/join.webp";
+import badge from "../../images/badge.png";
 
 const SaberMas = () => {
   return (
     <>
       <Header />
+      <div id="dividerCont"></div>
       <div className="subTitleCont" id="aboutBanner">
         <h2 className="subpageTitle">Sobre Nosotros</h2>
+        <img src={badge} id="titleLogo" />
       </div>
       <div id="AbtCont">
         <div className="abtInner">

@@ -3,13 +3,13 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Laura Vetchinova`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Sunshine University`,
+    siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-  ]
+  ],
 };
