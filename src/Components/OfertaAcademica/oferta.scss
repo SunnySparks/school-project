@@ -4,6 +4,11 @@
   flex-direction: column;
   align-items: center;
   //background: url(../../images/ofertabg.jpg) #88c3f5;
+  margin: auto;
+  @media (min-width: 1800px) {
+    max-width: 1700px;
+    padding: 100px 40px;
+  }
   #ofertaTitle {
     //background: #ffffffb3;
     padding: 10px;
@@ -91,8 +96,17 @@
       box-sizing: border-box;
       color: #fff;
       padding: 20px;
+      @media (min-width: 1024px) {
+        display: flex;
+      }
       .buttonDrowpdown {
         .buttonInner {
+          @media (min-width: 1024px) {
+            width: 180px;
+          }
+          @media (min-width: 1440px) {
+            width: 270px;
+          }
           button {
             background: #ffffffb3;
             width: 380px;
@@ -102,8 +116,20 @@
             @media (min-width: 768px) {
               margin: auto;
             }
+            @media (min-width: 1024px) {
+              width: 150px;
+            }
+            @media (min-width: 1440px) {
+              width: 230px;
+            }
             h4 {
               font-size: 22px;
+              @media (min-width: 1024px) {
+                font-size: 15px;
+              }
+              @media (min-width: 1440px) {
+                font-size: 20px;
+              }
             }
           }
           .dropdown-list {
@@ -119,10 +145,22 @@
               list-style: none;
               h2 {
                 color: #000;
+                @media (min-width: 1024px) {
+                  font-size: 15px;
+                }
+                @media (min-width: 1440px) {
+                  font-size: 20px;
+                }
               }
               h3 {
                 color: #000;
                 font-weight: 400;
+                @media (min-width: 1024px) {
+                  font-size: 12px;
+                }
+                @media (min-width: 1440px) {
+                  font-size: 17px;
+                }
               }
             }
             &.open {

@@ -28,6 +28,11 @@
   transition: all 0.3s ease-in-out;
   //animation: fadeIn 3s;
   //animation: fadeInBottom 3s;
+  margin: auto;
+  @media (min-width: 1800px) {
+    max-width: 1700px;
+    padding: 100px 40px;
+  }
   #valorescont {
     display: flex;
     flex-direction: column;
