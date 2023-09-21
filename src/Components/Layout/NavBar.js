@@ -1,15 +1,21 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from "react";
+import { Link } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faWhatsapp, faInstagram, faTwitter, faPinterest } from "@fortawesome/free-brands-svg-icons";
-import '../../styles/global.scss';
-import '../../pages/Actriz/SaberMas'
+import {
+  faFacebook,
+  faWhatsapp,
+  faInstagram,
+  faTwitter,
+  faPinterest,
+} from "@fortawesome/free-brands-svg-icons";
+import "../../styles/global.scss";
+import "../../pages/Actriz/SaberMas";
 
 const navOptions = [
-  { link: '/Index', text: 'Inicio' },
-  { link: '/OfertaAcademica/SaberMas', text: 'Oferta Académica' },
-  { link: '/Nuestra/SaberMas', text: 'Nuestra Escuela' },
-  { link: '/Premios/SaberMas', text: 'Premios' },
+  { link: "/", text: "Inicio" },
+  { link: "/OfertaAcademica/SaberMas", text: "Oferta Académica" },
+  { link: "/Nuestra/SaberMas", text: "Nuestra Escuela" },
+  { link: "/Premios/SaberMas", text: "Premios" },
   //{ link: '/Asesora/SaberMas', text: 'Asesora Creativa' },
   //{ link: '/About', text: 'Acerca De' },
   //{ link: '/#', text: 'Contacto' },
@@ -17,26 +23,26 @@ const navOptions = [
 
 const NavBar = () => {
   return (
-    <div id='navCont'>
+    <div id="navCont">
       {navOptions.map(({ link, text }, i) => (
-        <Link className='navLink' key={i} href={link}>
+        <Link className="navLink" key={i} href={link}>
           {text}
         </Link>
       ))}
       <div id="iconsCont">
-        <div className='iconInner'>
+        <div className="iconInner">
           <FontAwesomeIcon icon={faFacebook} />
         </div>
-        <div className='iconInner'>
+        <div className="iconInner">
           <FontAwesomeIcon icon={faWhatsapp} />
         </div>
-        <div className='iconInner'>
+        <div className="iconInner">
           <FontAwesomeIcon icon={faInstagram} />
         </div>
-        <div className='iconInner'>
+        <div className="iconInner">
           <FontAwesomeIcon icon={faTwitter} />
         </div>
-        <div className='iconInner'>
+        <div className="iconInner">
           <FontAwesomeIcon icon={faPinterest} />
         </div>
       </div>

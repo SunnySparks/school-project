@@ -287,7 +287,7 @@ const OfertaAcademica = () => {
           </div>
         </div>
         <div className="home-buttons webfont">
-          <Link href="/Actriz/SaberMas">Saber Más</Link>
+          <Link href="/Oferta/SaberMas">Saber Más</Link>
         </div>
         <FontAwesomeIcon icon="check-square" />
         Your <FontAwesomeIcon icon="coffee" /> is hot and ready!
