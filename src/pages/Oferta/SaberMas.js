@@ -18,7 +18,7 @@ const SaberMas = () => {
         <div className="ofInner" id="firstInner">
           <div className="ofText webfont">
             <h2>
-              Programa de Licenciatura en Idiomas <br></br> Sunshine University
+              Licenciatura en Idiomas <br></br> Sunshine University
             </h2>
             <p>
               Bienvenido al programa de Licenciatura en Idiomas en Sunshine
@@ -31,8 +31,12 @@ const SaberMas = () => {
             </p>
             <br></br>
             <h3>Descripción general del programa:</h3>
-            <p>Título ofrecido: Licenciatura en Idiomas</p>
-            <p>Duración del programa: Cuatro años (8 semestres)</p>
+            <p>
+              <strong>Título ofrecido:</strong> Licenciatura en Idiomas
+            </p>
+            <p>
+              <strong>Duración del programa:</strong> Cuatro años (8 semestres)
+            </p>
             <p>
               <strong>Acreditación:</strong> Nuestro programa está acreditado
               por el Accrediting Body for Language Education, garantizando los
