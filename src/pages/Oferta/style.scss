@@ -23,11 +23,11 @@ $webfont2: "Poppins", sans-serif;
     padding-top: 120px;
   }
 }
-#ofCont {
+.ofCont {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  #firstInner {
+  .ofContent {
     display: flex;
     flex-direction: column-reverse;
     position: relative;
@@ -90,16 +90,16 @@ $webfont2: "Poppins", sans-serif;
         @media (min-width: 1440px) {
           font-size: 25px;
         }
-      }
-      strong {
-        @media (min-width: 768px) {
-          font-size: 20px;
-        }
-        @media (min-width: 992px) {
-          text-shadow: 4px 3px 0px #000, 2px 2px 2px rgb(0, 0, 0);
-        }
-        @media (min-width: 1440px) {
-          font-size: 25px;
+        strong {
+          @media (min-width: 768px) {
+            font-size: 20px;
+          }
+          @media (min-width: 992px) {
+            text-shadow: 4px 3px 0px #000, 2px 2px 2px rgb(0, 0, 0);
+          }
+          @media (min-width: 1440px) {
+            font-size: 25px;
+          }
         }
       }
     }
@@ -120,35 +120,70 @@ $webfont2: "Poppins", sans-serif;
       }
     }
   }
-  .ofInner {
-    .ofText {
-      h2 {
-        margin: 0;
-        font-weight: 800;
-        @media (min-width: 768px) {
-          font-size: 40px;
-        }
-        @media (min-width: 992px) {
-          font-size: 50px;
-          text-shadow: 4px 3px 0px #fff, 2px 2px 2px rgb(255, 255, 255);
-        }
-        @media (min-width: 1440px) {
-          font-size: 70px;
-        }
+  .ofSubContent {
+    display: flex;
+    flex-direction: column;
+    .ofInner {
+      padding: 20px;
+      margin: 10px 0;
+      @media (max-width: 991px) {
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
       }
-      h4 {
-        margin: 0;
-        font-weight: 800;
-        @media (min-width: 768px) {
-          font-size: 15px;
-          margin: 25px 0;
-          width: 60%;
+      .ofText {
+        h2 {
+          margin: 0;
+          font-weight: 800;
+          @media (min-width: 768px) {
+            font-size: 40px;
+          }
+          @media (min-width: 992px) {
+            font-size: 50px;
+            text-shadow: 4px 3px 0px #fff, 2px 2px 2px rgb(255, 255, 255);
+          }
+          @media (min-width: 1440px) {
+            font-size: 70px;
+          }
         }
-        @media (min-width: 992px) {
-          text-shadow: 4px 3px 0px #000, 2px 2px 2px rgb(0, 0, 0);
+        h4 {
+          margin: 0;
+          font-weight: 800;
+          @media (min-width: 768px) {
+            font-size: 15px;
+            margin: 25px 0;
+            width: 60%;
+          }
+          @media (min-width: 1440px) {
+            font-size: 30px;
+          }
         }
-        @media (min-width: 1440px) {
-          font-size: 55px;
+        ol,
+        ul {
+          li {
+            p {
+              @media (min-width: 1440px) {
+                font-size: 25px;
+              }
+              @media (min-width: 1800px) {
+                font-size: 30px;
+              }
+              strong {
+                @media (min-width: 1440px) {
+                  font-size: 25px;
+                }
+                @media (min-width: 1800px) {
+                  font-size: 38px;
+                }
+              }
+            }
+          }
+        }
+        p {
+          @media (min-width: 1440px) {
+            font-size: 25px;
+          }
+          @media (min-width: 1800px) {
+            font-size: 30px;
+          }
         }
       }
     }

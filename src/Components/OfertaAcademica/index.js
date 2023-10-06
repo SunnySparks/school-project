@@ -289,8 +289,6 @@ const OfertaAcademica = () => {
         <div className="home-buttons webfont">
           <Link href="/Oferta/SaberMas">Saber Más</Link>
         </div>
-        <FontAwesomeIcon icon="check-square" />
-        Your <FontAwesomeIcon icon="coffee" /> is hot and ready!
       </div>
     </div>
   );
