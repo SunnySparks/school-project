@@ -15,7 +15,7 @@ const navOptions = [
   { link: "/", text: "Inicio" },
   { link: "/OfertaAcademica/SaberMas", text: "Oferta Académica" },
   { link: "/Nuestra/SaberMas", text: "Nuestra Escuela" },
-  { link: "/Premios/SaberMas", text: "Premios" },
+  { link: "/Exito/SaberMas", text: "Éxito Académico" },
   //{ link: '/Asesora/SaberMas', text: 'Asesora Creativa' },
   //{ link: '/About', text: 'Acerca De' },
   //{ link: '/#', text: 'Contacto' },
