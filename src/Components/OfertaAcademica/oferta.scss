@@ -3,14 +3,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  //background: url(../../images/ofertabg.jpg) #88c3f5;
   margin: auto;
   @media (min-width: 1800px) {
     max-width: 1700px;
     padding: 100px 40px;
   }
   #ofertaTitle {
-    //background: #ffffffb3;
     padding: 10px;
     width: 100%;
     display: flex;

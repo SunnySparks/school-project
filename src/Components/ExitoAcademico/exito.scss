@@ -1,52 +1,75 @@
 #exitoCont {
   padding: 20px;
-  h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  @media (min-width: 1800px) {
+    max-width: 1700px;
+    padding: 100px 40px;
+  }
+  #exitoTitle {
+    padding: 10px;
     width: 100%;
     display: flex;
-    justify-content: center;
-    color: #000;
-    font-size: 25px;
-    text-shadow: 4px 3px 0px #fff, 2px 2px 2px rgba(255, 255, 255, 255);
-    text-transform: uppercase;
-    @media (min-width: 768px) {
-      font-size: 35px;
-    }
-    @media (min-width: 1440px) {
-      font-size: 55px;
-    }
-  }
-  .wrapper {
-    display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    @media (min-width: 992px) {
-      flex-direction: row-reverse;
+    @media (min-width: 768px) {
+      flex-direction: row;
     }
-    #imagery {
-      @media (min-width: 992px) {
-        width: 50%;
+    h2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      color: #000;
+      font-size: 25px;
+      text-shadow: 4px 3px 0px #fff, 2px 2px 2px rgba(255, 255, 255, 255);
+      text-transform: uppercase;
+      @media (min-width: 768px) {
+        font-size: 35px;
       }
-      #imgCont {
-        display: flex;
-        justify-content: center;
-        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-        img {
-          max-width: 100%;
+      @media (min-width: 1440px) {
+        font-size: 55px;
+      }
+    }
+    #titleImg {
+      display: flex;
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  #exitoTextCont {
+    @media (min-width: 768px) {
+      padding-top: 40px;
+    }
+    h3 {
+      &:first-of-type {
+        text-align: center;
+        @media (min-width: 768px) {
+          font-size: 23px;
+        }
+        @media (min-width: 992px) {
+          font-size: 30px;
         }
       }
     }
-    #dirContent {
-      padding: 20px 0;
+    #ofertaTextBox {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      justify-content: center;
       @media (min-width: 992px) {
-        width: 50%;
+        flex-direction: row;
+        flex-wrap: wrap;
       }
-      #textCont {
-        box-sizing: border-box;
-        color: #000;
+      p {
+        font-weight: 400;
+        @media (min-width: 992px) {
+          width: 400px;
+          padding: 0 20px;
+        }
       }
     }
   }

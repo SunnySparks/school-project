@@ -15,8 +15,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import titleimg from "../../images/offer.webp";
 
-library.add(fab, faCheckSquare, faCoffee);
-
 const OfertaAcademica = () => {
   const [isClassAdded, setIsClassAdded] = useState(false);
   const [isClassAdded2, setIsClassAdded2] = useState(false);
