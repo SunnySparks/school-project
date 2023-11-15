@@ -61,42 +61,56 @@ const OfertaAcademica = () => {
           encantados de extender una invitación exclusiva para ti.
         </h3>
         <div id="ofertaTextBox">
-          <h4 className="webfont">
-            <strong>🌐 Profesorado incomparable:</strong> Sumérgete en un mundo
-            de proezas intelectuales, guiado por un distinguido profesorado
-            compuesto por expertos líderes y pioneros del pensamiento en sus
-            campos.
-          </h4>
-          <h4 className="webfont">
-            <strong>📚 Programas de vanguardia:</strong> Elige entre una amplia
-            gama de programas innovadores y meticulosamente elaborados,
-            diseñados para equiparte con las habilidades y conocimientos
-            necesarios para prosperar en los dinámicos paisajes de hoy y mañana.
-          </h4>
-          <h4 className="webfont">
-            <strong>🌍 Perspectivas globales:</strong> Sumérgete en una
-            comunidad culturalmente diversa e inclusiva, fomentando un rico
-            tapiz de perspectivas que ampliarán tu comprensión del mundo y darán
-            forma a tu mentalidad global.
-          </h4>
-          <h4 className="webfont">
-            <strong>🔬 Instalaciones de vanguardia:</strong> Libera tu potencial
-            dentro de nuestro campus moderno y tecnológicamente avanzado, que
-            cuenta con laboratorios de clase mundial, bibliotecas y espacios de
-            colaboración para mejorar tu experiencia de aprendizaje.
-          </h4>
-          <h4 className="webfont">
-            <strong>🌱 Crecimiento personalizado:</strong> Nuestro compromiso
-            con tu éxito se extiende más allá del aula, con tutorías
-            personalizadas y apoyo para nutrir tu crecimiento académico y
-            personal.
-          </h4>
-          <h4 className="webfont">
-            <strong>🎉 Vibrante vida en el campus:</strong> Sumérgete en un
-            vibrante tapiz de actividades extracurriculares, clubes y eventos
-            que prometen enriquecer tu experiencia universitaria y crear
-            recuerdos para toda la vida.
-          </h4>
+          <div className="OtxtInner">
+            <h4 className="webfont">
+              <strong>🌐 Profesorado incomparable:</strong> Sumérgete en un
+              mundo de proezas intelectuales, guiado por un distinguido
+              profesorado compuesto por expertos líderes y pioneros del
+              pensamiento en sus campos.
+            </h4>
+          </div>
+          <div className="OtxtInner">
+            <h4 className="webfont">
+              <strong>📚 Programas de vanguardia:</strong> Elige entre una
+              amplia gama de programas innovadores y meticulosamente elaborados,
+              diseñados para equiparte con las habilidades y conocimientos
+              necesarios para prosperar en los dinámicos paisajes de hoy y
+              mañana.
+            </h4>
+          </div>
+          <div className="OtxtInner">
+            <h4 className="webfont">
+              <strong>🌍 Perspectivas globales:</strong> Sumérgete en una
+              comunidad culturalmente diversa e inclusiva, fomentando un rico
+              tapiz de perspectivas que ampliarán tu comprensión del mundo y
+              darán forma a tu mentalidad global.
+            </h4>
+          </div>
+          <div className="OtxtInner">
+            <h4 className="webfont">
+              <strong>🔬 Instalaciones de vanguardia:</strong> Libera tu
+              potencial dentro de nuestro campus moderno y tecnológicamente
+              avanzado, que cuenta con laboratorios de clase mundial,
+              bibliotecas y espacios de colaboración para mejorar tu experiencia
+              de aprendizaje.
+            </h4>
+          </div>
+          <div className="OtxtInner">
+            <h4 className="webfont">
+              <strong>🌱 Crecimiento personalizado:</strong> Nuestro compromiso
+              con tu éxito se extiende más allá del aula, con tutorías
+              personalizadas y apoyo para nutrir tu crecimiento académico y
+              personal.
+            </h4>
+          </div>
+          <div className="OtxtInner">
+            <h4 className="webfont">
+              <strong>🎉 Vibrante vida en el campus:</strong> Sumérgete en un
+              vibrante tapiz de actividades extracurriculares, clubes y eventos
+              que prometen enriquecer tu experiencia universitaria y crear
+              recuerdos para toda la vida.
+            </h4>
+          </div>
         </div>
       </div>
       <div id="ofertaContent">
