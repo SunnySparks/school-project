@@ -11,6 +11,9 @@ import inv from "../../images/research.png";
 const About = () => {
   return (
     <div id="AboutCont">
+      <div id="abtTitle">
+        <h2 class="webfont">Sobre Nosotros</h2>
+      </div>
       <div id="valorescont">
         <div class="valinner" id="about">
           <div className="title">

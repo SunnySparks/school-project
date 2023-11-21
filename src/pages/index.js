@@ -3,12 +3,8 @@ import Layout from "../Components/Layout";
 import "../styles/videobg.scss";
 import "../styles/global.scss";
 import Hero from "../Components/Hero";
-import Performer from "../Components/Performer";
 import OfertaAcademica from "../Components/OfertaAcademica";
-import AsesoraCreativa from "../Components/AsesoraCreativa";
 import ExitoAcademico from "../Components/ExitoAcademico";
-import Testimonios from "../Components/Testimonios";
-import AlMomento from "../Components/AlMomento";
 import About from "../Components/About";
 import Footer from "../Components/Layout/Footer";
 
@@ -19,10 +15,6 @@ const Index = () => {
       <About />
       <OfertaAcademica />
       <ExitoAcademico />
-      <Performer />
-      <AsesoraCreativa />
-      <Testimonios />
-      <AlMomento />
       <Footer />
     </Layout>
   );

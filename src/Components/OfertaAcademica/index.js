@@ -3,14 +3,6 @@ import { Link } from "gatsby";
 import "./oferta.scss";
 import "../../styles/global.scss";
 import Fade from "react-reveal/Fade";
-import ReactDOM from "react-dom";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
-import {
-  faCheckSquare,
-  faCoffee,
-  faLanguages,
-} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import titleimg from "../../images/offer.webp";

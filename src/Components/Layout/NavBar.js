@@ -9,16 +9,12 @@ import {
   faPinterest,
 } from "@fortawesome/free-brands-svg-icons";
 import "../../styles/global.scss";
-import "../../pages/Actriz/SaberMas";
 
 const navOptions = [
   { link: "/", text: "Inicio" },
-  { link: "/OfertaAcademica/SaberMas", text: "Oferta Académica" },
-  { link: "/Nuestra/SaberMas", text: "Nuestra Escuela" },
+  { link: "/About/SaberMas", text: "Sobre Nosotros" },
+  { link: "/Oferta/SaberMas", text: "Oferta Académica" },
   { link: "/Exito/SaberMas", text: "Éxito Académico" },
-  //{ link: '/Asesora/SaberMas', text: 'Asesora Creativa' },
-  //{ link: '/About', text: 'Acerca De' },
-  //{ link: '/#', text: 'Contacto' },
 ];
 
 const NavBar = () => {
