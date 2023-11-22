@@ -14,10 +14,7 @@ const SaberMas = () => {
       <Header />
       <div id="dividerCont"></div>
       <div className="subTitleCont" id="aboutBanner">
-        <h2 className="subpageTitle">
-          Exito y<br />
-          Logros
-        </h2>
+        <h2 className="subpageTitle">Exito y Logros</h2>
         <img src={badge} id="titleLogo" />
       </div>
       <div id="SuccessCont">
@@ -26,13 +23,15 @@ const SaberMas = () => {
             <h2>Experiencias Extracurriculares</h2>
           </div>
           <div id="Sdescription">
-            <img src={extrac}></img>
-            <div id="Stext">
-              <h4>EXPERIENCIAS FASCINANTES PARA CIUDADANOS DEL MUNDO</h4>
-              <h2>
-                A través de debates, oportunidades fuera del aula y viajes,
-                nuestros curiosos alumnos se enfrentan al mundo.
-              </h2>
+            <div id="simg">
+              <img src={extrac}></img>
+              <div id="Stext">
+                <h4>EXPERIENCIAS FASCINANTES PARA CIUDADANOS DEL MUNDO</h4>
+                <h2>
+                  A través de debates, oportunidades fuera del aula y viajes,
+                  nuestros curiosos alumnos se enfrentan al mundo.
+                </h2>
+              </div>
             </div>
             <div id="Sintro">
               <div id="SiTitle">

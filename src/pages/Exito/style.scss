@@ -1,0 +1,180 @@
+$webfont: "Montserrat", sans-serif;
+
+#SuccessCont {
+  display: flex;
+  justify-content: center;
+  max-width: 350px;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  #SuccessDesc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    box-sizing: border-box;
+    .SuccTitle {
+      h2 {
+        font-family: $webfont;
+        font-size: 17px;
+        text-transform: uppercase;
+      }
+    }
+    #Sdescription {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-sizing: border-box;
+      width: 100%;
+      #simg {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        margin: 10px 0;
+        img {
+          width: 100%;
+          max-width: 100%;
+          z-index: 0;
+        }
+        #Stext {
+          z-index: 1;
+          font-family: $webfont;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          h4 {
+            position: relative;
+            &::before {
+              content: "";
+              display: block;
+              position: absolute;
+              bottom: -10px;
+              background: #000;
+              height: 3px;
+              width: 80%;
+              left: 0;
+              right: 0;
+              margin: auto;
+            }
+          }
+          h3 {
+            font-size: 17px;
+            padding: 5px;
+          }
+        }
+      }
+      #Sintro {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        font-family: $webfont;
+        margin: 10px 0;
+        #SiTitle {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          h2 {
+            text-align: center;
+          }
+        }
+        #SiTxt {
+          h4 {
+            font-weight: 600;
+          }
+        }
+        #SiImg {
+          display: flex;
+          justify-content: center;
+          img {
+            width: 100%;
+          }
+        }
+      }
+      #Scollab {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        font-family: $webfont;
+        margin: 10px 0;
+        .ScolTitle {
+        }
+        .ScolTxt {
+          h4 {
+            font-weight: 600;
+          }
+        }
+        .ScolCarrousel {
+          display: flex;
+          flex-direction: column;
+          box-sizing: border-box;
+          .ScolCard {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #ccd5dd;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+            .ScclImg {
+              display: inline-block;
+              position: relative;
+              width: 200px;
+              height: 200px;
+              overflow: hidden;
+              border-radius: 50%;
+              img {
+                width: 100%;
+                max-width: 100%;
+                height: 100%;
+                object-fit: cover;
+                left: 0;
+                right: 0;
+                margin: auto;
+              }
+            }
+            .SccBtn {
+              width: 100%;
+              position: absolute;
+              bottom: 0;
+              height: 40px;
+              display: flex;
+              justify-content: center;
+              align-items: stretch;
+
+              a {
+                background: #b4ebf5;
+                width: 100%;
+                text-decoration: none;
+                color: #0d1563;
+                text-transform: uppercase;
+                font-weight: 700;
+                transition: all 0.3s ease-in-out;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                  background: #0d1563;
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
