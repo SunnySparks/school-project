@@ -88,6 +88,7 @@ $webfont: "Montserrat", sans-serif;
           }
         }
         #SiTxt {
+          padding: 10px;
           h4 {
             font-weight: 600;
           }
@@ -166,6 +167,9 @@ $webfont: "Montserrat", sans-serif;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                span {
+                  padding-right: 5px;
+                }
                 &:hover {
                   background: #0d1563;
                   color: #fff;

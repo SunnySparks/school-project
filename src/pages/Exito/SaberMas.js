@@ -93,7 +93,7 @@ const SaberMas = () => {
                       target="_Blank"
                       title="Saber Más"
                     >
-                      Saber Más
+                      <span className="fa fa-plus-circle"></span>Saber Más
                     </a>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ const SaberMas = () => {
                       target="_Blank"
                       title="Saber Más"
                     >
-                      Saber Más
+                      <span className="fa fa-plus-circle"></span>Saber Más
                     </a>
                   </div>
                 </div>
@@ -145,7 +145,7 @@ const SaberMas = () => {
                       target="_Blank"
                       title="Saber Más"
                     >
-                      Saber Más
+                      <span className="fa fa-plus-circle"></span>Saber Más
                     </a>
                   </div>
                 </div>
