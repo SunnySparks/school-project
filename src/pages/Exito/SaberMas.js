@@ -7,6 +7,12 @@ import extrac from "../../images/extrac.webp";
 import painting from "../../images/painting.webp";
 import music from "../../images/music.webp";
 import mit from "../../images/mit.webp";
+import law from "../../images/law.webp";
+import sport from "../../images/sport.webp";
+import art from "../../images/art.webp";
+import reading from "../../images/reading.webp";
+import trees from "../../images/trees.webp";
+import fun from "../../images/fun.webp";
 
 const SaberMas = () => {
   return (
@@ -123,7 +129,9 @@ const SaberMas = () => {
                   </div>
                 </div>
                 <div className="ScolCard">
-                  <div className="ScclImg">img here</div>
+                  <div className="ScclImg">
+                    <img src={law}></img>
+                  </div>
                   <div className="SccTitle">
                     <h2>Harvard</h2>
                   </div>
@@ -153,7 +161,7 @@ const SaberMas = () => {
             </div>
             <div id="Sdiscovery">
               <div className="SdiscTitle">
-                <h2>DESCUBRIR NUESTROS TALENTOS Y EL MUNDO EN GENERAL</h2>
+                <h2>DESCUBRIENDO NUESTROS TALENTOS Y EL MUNDO EN GENERAL</h2>
               </div>
               <div className="ScolTxt">
                 <h4>
@@ -170,7 +178,9 @@ const SaberMas = () => {
               </div>
               <div className="ScolCarrousel">
                 <div className="ScolCard">
-                  <div className="ScclImg">IMAGE GOES HERE</div>
+                  <div className="ScclImg">
+                    <img src={sport}></img>
+                  </div>
                   <div className="SccTitle">
                     <h2>Deportes en equipo e individuales</h2>
                   </div>
@@ -186,7 +196,9 @@ const SaberMas = () => {
                   </div>
                 </div>
                 <div className="ScolCard">
-                  <div className="ScclImg">IMAGE GOES HERE</div>
+                  <div className="ScclImg">
+                    <img src={art}></img>
+                  </div>
                   <div className="SccTitle">
                     <h2>Creatividad y artes</h2>
                   </div>
@@ -200,7 +212,9 @@ const SaberMas = () => {
                   </div>
                 </div>
                 <div className="ScolCard">
-                  <div className="ScclImg">img here</div>
+                  <div className="ScclImg">
+                    <img src={reading}></img>
+                  </div>
                   <div className="SccTitle">
                     <h2>Alfabetización y apoyo al aprendizaje</h2>
                   </div>
@@ -287,7 +301,7 @@ const SaberMas = () => {
                 </div>
                 <div className="SdiImg">
                   <div className="SdiImgInner">
-                    <img src={painting}></img>
+                    <img src={trees}></img>
                   </div>
                 </div>
               </div>
@@ -304,12 +318,13 @@ const SaberMas = () => {
                 </h4>
               </div>
               <div id="SiImg">
-                <img src={painting}></img>
+                <img src={fun}></img>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

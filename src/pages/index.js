@@ -7,6 +7,7 @@ import OfertaAcademica from "../Components/OfertaAcademica";
 import ExitoAcademico from "../Components/ExitoAcademico";
 import About from "../Components/About";
 import Footer from "../Components/Layout/Footer";
+import "../../node_modules/font-awesome/css/font-awesome.min.css";
 
 const Index = () => {
   return (

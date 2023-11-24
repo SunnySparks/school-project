@@ -7,6 +7,10 @@ $webfont: "Montserrat", sans-serif;
   width: 100%;
   margin: auto;
   box-sizing: border-box;
+  @media (min-width: 768px) {
+    max-width: 600px;
+    padding: 20px 0;
+  }
   #SuccessDesc {
     display: flex;
     justify-content: center;
@@ -19,6 +23,9 @@ $webfont: "Montserrat", sans-serif;
         font-family: $webfont;
         font-size: 17px;
         text-transform: uppercase;
+        @media (min-width: 768px) {
+          font-size: 30px;
+        }
       }
     }
     #Sdescription {
@@ -27,6 +34,7 @@ $webfont: "Montserrat", sans-serif;
       justify-content: center;
       box-sizing: border-box;
       width: 100%;
+      padding: 20px;
       #simg {
         display: flex;
         flex-direction: column;
@@ -75,7 +83,6 @@ $webfont: "Montserrat", sans-serif;
         box-sizing: border-box;
         justify-content: center;
         align-items: center;
-        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
         font-family: $webfont;
         margin: 10px 0;
         #SiTitle {
@@ -85,6 +92,9 @@ $webfont: "Montserrat", sans-serif;
           align-items: center;
           h2 {
             text-align: center;
+            @media (min-width: 768px) {
+              font-size: 30px;
+            }
           }
         }
         #SiTxt {
@@ -110,6 +120,11 @@ $webfont: "Montserrat", sans-serif;
         font-family: $webfont;
         margin: 10px 0;
         .ScolTitle {
+          h2 {
+            @media (min-width: 768px) {
+              font-size: 30px;
+            }
+          }
         }
         .ScolTxt {
           h4 {
@@ -147,6 +162,14 @@ $webfont: "Montserrat", sans-serif;
                 margin: auto;
               }
             }
+            .SccTitle {
+            }
+            .SccTxt {
+              padding: 5px;
+              h4 {
+                font-weight: 600;
+              }
+            }
             .SccBtn {
               width: 100%;
               position: absolute;
@@ -176,6 +199,163 @@ $webfont: "Montserrat", sans-serif;
                 }
               }
             }
+          }
+        }
+      }
+      #Sdiscovery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: $webfont;
+        .SdiscTitle {
+          h2 {
+            @media (min-width: 768px) {
+              font-size: 30px;
+            }
+          }
+        }
+        .ScolTxt {
+          padding: 10px 15px;
+          border: 1px solid #000;
+          border-radius: 10px;
+          h4 {
+            font-weight: 600;
+          }
+        }
+        .ScolCarrousel {
+          display: flex;
+          flex-direction: column;
+          box-sizing: border-box;
+          .ScolCard {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #ccd5dd;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+            .ScclImg {
+              display: inline-block;
+              position: relative;
+              width: 200px;
+              height: 200px;
+              overflow: hidden;
+              border-radius: 50%;
+              img {
+                width: 100%;
+                max-width: 100%;
+                height: 100%;
+                object-fit: cover;
+                left: 0;
+                right: 0;
+                margin: auto;
+              }
+            }
+            .SccTitle {
+            }
+            .SccTxt {
+              padding: 5px;
+              h4 {
+                font-weight: 600;
+              }
+            }
+            .SccBtn {
+              width: 100%;
+              position: absolute;
+              bottom: 0;
+              height: 40px;
+              display: flex;
+              justify-content: center;
+              align-items: stretch;
+
+              a {
+                background: #b4ebf5;
+                width: 100%;
+                text-decoration: none;
+                color: #0d1563;
+                text-transform: uppercase;
+                font-weight: 700;
+                transition: all 0.3s ease-in-out;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                span {
+                  padding-right: 5px;
+                }
+                &:hover {
+                  background: #0d1563;
+                  color: #fff;
+                }
+              }
+            }
+            &:first-of-type {
+              .ScclImg {
+                img {
+                  object-position: left;
+                }
+              }
+            }
+          }
+        }
+      }
+      #Sdifference {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        .SdiCard {
+          display: flex;
+          flex-direction: column-reverse;
+          .SdiVerb {
+            .SdifTitle {
+              font-family: $webfont;
+              h4 {
+                color: #177584;
+                font-size: 14px;
+              }
+            }
+            .SdiTxt {
+              font-family: $webfont;
+              h4 {
+                font-weight: 600;
+              }
+            }
+          }
+          .SdiImg {
+            display: flex;
+            justify-content: center;
+            .SdiImgInner {
+              display: flex;
+              justify-content: center;
+              box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+              img {
+                width: 100%;
+                max-width: 100%;
+              }
+            }
+          }
+        }
+      }
+      #Senvironment {
+        #SeTitle {
+          h2 {
+            font-family: $webfont;
+          }
+        }
+        #SiTxt {
+          h4 {
+            font-family: $webfont;
+            font-weight: 600;
+          }
+        }
+        #SiImg {
+          display: flex;
+          justify-content: center;
+          img {
+            width: 100%;
+            max-width: 100%;
           }
         }
       }
