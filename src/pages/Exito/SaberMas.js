@@ -30,7 +30,9 @@ const SaberMas = () => {
           </div>
           <div id="Sdescription">
             <div id="simg">
-              <img src={extrac}></img>
+              <div id="simInner">
+                <img src={extrac}></img>
+              </div>
               <div id="Stext">
                 <h4>EXPERIENCIAS FASCINANTES PARA CIUDADANOS DEL MUNDO</h4>
                 <h2>
@@ -41,27 +43,29 @@ const SaberMas = () => {
             </div>
             <div id="Sintro">
               <div id="SiTitle">
-                <h2>CREANDO CONEXIONES LOCALES Y GLOBALES</h2>
-              </div>
-              <div id="SiTxt">
-                <h4>
-                  Las experiencias de nuestros alumnos dentro y fuera del aula
-                  desarrollan su ciudadanía del mundo, tanto de su comunidad
-                  como del mundo. En Sunshine University, sabemos que las
-                  perspectivas internacionales profundizan su comprensión.
-                </h4>
-                <h4>
-                  Por ejemplo, mientras que nuestros estudiantes se están
-                  convirtiendo en competentes en inglés y francés, también
-                  ayudan a la comunidad comunidad, practican deportes, crean
-                  arte o participan en viajes viajes nacionales e
-                  internacionales.
-                </h4>
-                <h4>
-                  Estas variadas experiencias hacen que nuestros estudiantes
-                  adquieran conocimientos y comprensión completos y les preparan
-                  para marcar la diferencia. la diferencia.
-                </h4>
+                <div id="SitInner">
+                  <h2>CREANDO CONEXIONES LOCALES Y GLOBALES</h2>
+                </div>
+                <div id="SiTxt">
+                  <h4>
+                    Las experiencias de nuestros alumnos dentro y fuera del aula
+                    desarrollan su ciudadanía del mundo, tanto de su comunidad
+                    como del mundo. En Sunshine University, sabemos que las
+                    perspectivas internacionales profundizan su comprensión.
+                  </h4>
+                  <h4>
+                    Por ejemplo, mientras que nuestros estudiantes se están
+                    convirtiendo en competentes en inglés y francés, también
+                    ayudan a la comunidad comunidad, practican deportes, crean
+                    arte o participan en viajes viajes nacionales e
+                    internacionales.
+                  </h4>
+                  <h4>
+                    Estas variadas experiencias hacen que nuestros estudiantes
+                    adquieran conocimientos y comprensión completos y les
+                    preparan para marcar la diferencia. la diferencia.
+                  </h4>
+                </div>
               </div>
               <div id="SiImg">
                 <img src={painting}></img>
@@ -140,11 +144,7 @@ const SaberMas = () => {
                       La colaboración de Sunshine University con Harvard es más
                       que una alianza; es un compromiso para fomentar un entorno
                       en el que los estudiantes puedan acceder a lo mejor de
-                      ambos mundos. Mediante la fusión de la destreza académica
-                      de Harvard con la cultura dinámica e inclusiva de Sunshine
-                      University, nuestro objetivo es crear un viaje educativo
-                      único que impulse a los estudiantes hacia un éxito sin
-                      precedentes. estudiantes hacia un éxito sin precedentes.
+                      ambos mundos.
                     </h4>
                   </div>
                   <div className="SccBtn">
@@ -309,14 +309,15 @@ const SaberMas = () => {
             <div id="Senvironment">
               <div id="SeTitle">
                 <h2>UN ENTORNO DE APRENDIZAJE ESTIMULANTE</h2>
+                <div id="SiTxt">
+                  <h4>
+                    Nuestro campus es un entorno totalmente enriquecedor con un
+                    ambiente inspirador, donde nuestros estudiantes pueden
+                    perseguir todas sus metas y aspiraciones.
+                  </h4>
+                </div>
               </div>
-              <div id="SiTxt">
-                <h4>
-                  Nuestro campus es un entorno totalmente enriquecedor con un
-                  ambiente inspirador, donde nuestros estudiantes pueden
-                  perseguir todas sus metas y aspiraciones.
-                </h4>
-              </div>
+
               <div id="SiImg">
                 <img src={fun}></img>
               </div>

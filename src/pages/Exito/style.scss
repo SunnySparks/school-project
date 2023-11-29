@@ -11,6 +11,9 @@ $webfont: "Montserrat", sans-serif;
     max-width: 600px;
     padding: 20px 0;
   }
+  @media (min-width: 992px) {
+    max-width: 980px;
+  }
   #SuccessDesc {
     display: flex;
     justify-content: center;
@@ -25,6 +28,9 @@ $webfont: "Montserrat", sans-serif;
         text-transform: uppercase;
         @media (min-width: 768px) {
           font-size: 30px;
+        }
+        @media (min-width: 992px) {
+          font-size: 40px;
         }
       }
     }
@@ -43,10 +49,15 @@ $webfont: "Montserrat", sans-serif;
         align-items: center;
         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
         margin: 10px 0;
-        img {
-          width: 100%;
-          max-width: 100%;
-          z-index: 0;
+        @media (min-width: 992px) {
+          position: relative;
+        }
+        #simInner {
+          img {
+            width: 100%;
+            max-width: 100%;
+            z-index: 0;
+          }
         }
         #Stext {
           z-index: 1;
@@ -56,6 +67,21 @@ $webfont: "Montserrat", sans-serif;
           justify-content: center;
           align-items: center;
           text-align: center;
+          @media (min-width: 992px) {
+            position: absolute;
+            bottom: 0;
+            align-items: start;
+            color: #fff;
+            padding: 20px;
+            background: rgb(0, 0, 0);
+            background: linear-gradient(
+              0deg,
+              rgba(0, 0, 0, 1) 0%,
+              rgba(0, 0, 0, 0.34226190476190477) 75%,
+              rgba(0, 0, 0, 0) 100%
+            );
+            text-align: start;
+          }
           h4 {
             position: relative;
             &::before {
@@ -69,6 +95,10 @@ $webfont: "Montserrat", sans-serif;
               left: 0;
               right: 0;
               margin: auto;
+              @media (min-width: 992px) {
+                background: #fff;
+                width: 100%;
+              }
             }
           }
           h3 {
@@ -85,27 +115,43 @@ $webfont: "Montserrat", sans-serif;
         align-items: center;
         font-family: $webfont;
         margin: 10px 0;
+        @media (min-width: 992px) {
+          flex-direction: row;
+        }
         #SiTitle {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          h2 {
-            text-align: center;
-            @media (min-width: 768px) {
-              font-size: 30px;
+          @media (min-width: 992px) {
+            width: 100%;
+            padding: 20px;
+          }
+          #SitInner {
+            h2 {
+              text-align: center;
+              @media (min-width: 768px) {
+                font-size: 30px;
+              }
+              @media (min-width: 992px) {
+                text-align: start;
+              }
             }
           }
-        }
-        #SiTxt {
-          padding: 10px;
-          h4 {
-            font-weight: 600;
+          #SiTxt {
+            padding: 10px;
+            h4 {
+              font-weight: 600;
+            }
           }
         }
         #SiImg {
           display: flex;
           justify-content: center;
+          @media (min-width: 992px) {
+            width: 100%;
+            padding: 20px;
+          }
           img {
             width: 100%;
           }
@@ -119,6 +165,9 @@ $webfont: "Montserrat", sans-serif;
         align-items: center;
         font-family: $webfont;
         margin: 10px 0;
+        @media (min-width: 992px) {
+          margin: 50px 0;
+        }
         .ScolTitle {
           h2 {
             @media (min-width: 768px) {
@@ -135,6 +184,9 @@ $webfont: "Montserrat", sans-serif;
           display: flex;
           flex-direction: column;
           box-sizing: border-box;
+          @media (min-width: 992px) {
+            flex-direction: row;
+          }
           .ScolCard {
             display: flex;
             flex-direction: column;
@@ -145,6 +197,14 @@ $webfont: "Montserrat", sans-serif;
             border-radius: 20px;
             position: relative;
             overflow: hidden;
+            @media (min-width: 768px) {
+              height: 480px;
+            }
+            @media (min-width: 992px) {
+              width: 30%;
+              margin: 0 10px;
+              height: 550px;
+            }
             .ScclImg {
               display: inline-block;
               position: relative;
@@ -152,6 +212,7 @@ $webfont: "Montserrat", sans-serif;
               height: 200px;
               overflow: hidden;
               border-radius: 50%;
+              transition: all 0.3s ease-in-out;
               img {
                 width: 100%;
                 max-width: 100%;
@@ -163,6 +224,11 @@ $webfont: "Montserrat", sans-serif;
               }
             }
             .SccTitle {
+              h2 {
+                @media (min-width: 768px) {
+                  font-size: 28px;
+                }
+              }
             }
             .SccTxt {
               padding: 5px;
@@ -178,6 +244,9 @@ $webfont: "Montserrat", sans-serif;
               display: flex;
               justify-content: center;
               align-items: stretch;
+              @media (min-width: 768px) {
+                height: 60px;
+              }
 
               a {
                 background: #b4ebf5;
@@ -190,6 +259,12 @@ $webfont: "Montserrat", sans-serif;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                @media (min-width: 768px) {
+                  font-size: 20px;
+                }
+                @media (min-width: 992px) {
+                  font-size: 16px;
+                }
                 span {
                   padding-right: 5px;
                 }
@@ -197,6 +272,11 @@ $webfont: "Montserrat", sans-serif;
                   background: #0d1563;
                   color: #fff;
                 }
+              }
+            }
+            &:hover {
+              .ScclImg {
+                border-radius: 0%;
               }
             }
           }
@@ -207,6 +287,9 @@ $webfont: "Montserrat", sans-serif;
         flex-direction: column;
         align-items: center;
         font-family: $webfont;
+        @media (min-width: 992px) {
+          margin: 50px 0;
+        }
         .SdiscTitle {
           h2 {
             @media (min-width: 768px) {
@@ -216,8 +299,11 @@ $webfont: "Montserrat", sans-serif;
         }
         .ScolTxt {
           padding: 10px 15px;
-          border: 1px solid #000;
+          border: 1px solid #474849;
           border-radius: 10px;
+          @media (min-width: 992px) {
+            border: none;
+          }
           h4 {
             font-weight: 600;
           }
@@ -226,16 +312,23 @@ $webfont: "Montserrat", sans-serif;
           display: flex;
           flex-direction: column;
           box-sizing: border-box;
+          @media (min-width: 992px) {
+            flex-direction: row;
+          }
           .ScolCard {
             display: flex;
             flex-direction: column;
             align-items: center;
-            border: 1px solid #ccd5dd;
+            border: 1px solid #474849;
             padding: 20px;
             margin: 10px 0;
             border-radius: 20px;
             position: relative;
             overflow: hidden;
+            @media (min-width: 992px) {
+              width: 30%;
+              margin: 0 10px;
+            }
             .ScclImg {
               display: inline-block;
               position: relative;
@@ -243,6 +336,7 @@ $webfont: "Montserrat", sans-serif;
               height: 200px;
               overflow: hidden;
               border-radius: 50%;
+              transition: all 0.3s ease-in-out;
               img {
                 width: 100%;
                 max-width: 100%;
@@ -297,6 +391,11 @@ $webfont: "Montserrat", sans-serif;
                 }
               }
             }
+            &:hover {
+              .ScclImg {
+                border-radius: 0;
+              }
+            }
           }
         }
       }
@@ -305,10 +404,20 @@ $webfont: "Montserrat", sans-serif;
         flex-direction: column;
         align-items: center;
         box-sizing: border-box;
+        @media (min-width: 992px) {
+          margin: 50px 0;
+        }
         .SdiCard {
           display: flex;
           flex-direction: column-reverse;
+          @media (min-width: 992px) {
+            flex-direction: row;
+          }
           .SdiVerb {
+            @media (min-width: 992px) {
+              width: 100%;
+              padding: 20px;
+            }
             .SdifTitle {
               font-family: $webfont;
               h4 {
@@ -326,30 +435,52 @@ $webfont: "Montserrat", sans-serif;
           .SdiImg {
             display: flex;
             justify-content: center;
+            @media (min-width: 992px) {
+              width: 100%;
+              padding: 20px;
+            }
             .SdiImgInner {
               display: flex;
               justify-content: center;
               box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+              @media (min-width: 992px) {
+                align-items: center;
+                box-shadow: none;
+              }
               img {
                 width: 100%;
                 max-width: 100%;
+                @media (min-width: 992px) {
+                  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                }
               }
+            }
+          }
+          &:last-of-type {
+            @media (min-width: 992px) {
+              flex-direction: row-reverse;
             }
           }
         }
       }
       #Senvironment {
+        display: flex;
+        flex-direction: column;
+        @media (min-width: 992px) {
+          flex-direction: row;
+        }
         #SeTitle {
           h2 {
             font-family: $webfont;
           }
-        }
-        #SiTxt {
-          h4 {
-            font-family: $webfont;
-            font-weight: 600;
+          #SiTxt {
+            h4 {
+              font-family: $webfont;
+              font-weight: 600;
+            }
           }
         }
+
         #SiImg {
           display: flex;
           justify-content: center;

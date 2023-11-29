@@ -29,6 +29,7 @@
   //animation: fadeIn 3s;
   //animation: fadeInBottom 3s;
   margin: auto;
+  align-items: center;
   @media (min-width: 1800px) {
     max-width: 1700px;
     padding: 100px 40px;
@@ -65,6 +66,9 @@
       flex-direction: row;
       flex-wrap: wrap;
       align-items: stretch;
+    }
+    @media (min-width: 1280px) and (max-width: 1799px) {
+      max-width: 900px;
     }
     .valinner {
       display: flex;
