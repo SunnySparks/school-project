@@ -14,6 +14,9 @@ $webfont: "Montserrat", sans-serif;
   @media (min-width: 992px) {
     max-width: 980px;
   }
+  @media (min-width: 1440px) {
+    max-width: 1240px;
+  }
   #SuccessDesc {
     display: flex;
     justify-content: center;
@@ -49,8 +52,12 @@ $webfont: "Montserrat", sans-serif;
         align-items: center;
         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
         margin: 10px 0;
+        margin: auto;
         @media (min-width: 992px) {
           position: relative;
+        }
+        @media (min-width: 1440px) {
+          width: 1152px;
         }
         #simInner {
           img {
@@ -118,6 +125,9 @@ $webfont: "Montserrat", sans-serif;
         @media (min-width: 992px) {
           flex-direction: row;
         }
+        @media (min-width: 1440px) {
+          margin: 50px 0;
+        }
         #SiTitle {
           display: flex;
           flex-direction: column;
@@ -154,6 +164,9 @@ $webfont: "Montserrat", sans-serif;
           }
           img {
             width: 100%;
+            @media (min-width: 992px) {
+              box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            }
           }
         }
       }
@@ -470,10 +483,13 @@ $webfont: "Montserrat", sans-serif;
           flex-direction: row;
         }
         #SeTitle {
+          display: flex;
+          flex-direction: column;
           h2 {
             font-family: $webfont;
           }
           #SiTxt {
+            margin: auto;
             h4 {
               font-family: $webfont;
               font-weight: 600;
@@ -487,6 +503,9 @@ $webfont: "Montserrat", sans-serif;
           img {
             width: 100%;
             max-width: 100%;
+            @media (min-width: 992px) {
+              box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            }
           }
         }
       }
