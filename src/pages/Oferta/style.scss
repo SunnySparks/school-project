@@ -61,23 +61,22 @@ $webfont2: "Poppins", sans-serif;
       }
       h2 {
         margin: 0;
-        font-weight: 800;
         @media (min-width: 768px) {
-          font-size: 40px;
+          font-size: 30px;
         }
         @media (min-width: 992px) {
-          font-size: 50px;
+          font-size: 40px;
           text-shadow: 4px 3px 0px #000, 2px 2px 2px rgb(0, 0, 0);
         }
         @media (min-width: 1440px) {
-          font-size: 70px;
+          font-size: 50px;
         }
       }
       h3 {
         margin: 0;
         font-weight: 800;
         @media (min-width: 768px) {
-          font-size: 35px;
+          font-size: 30px;
         }
         @media (min-width: 992px) {
           text-shadow: 4px 3px 0px #000, 2px 2px 2px rgb(0, 0, 0);
@@ -132,16 +131,15 @@ $webfont2: "Poppins", sans-serif;
       .ofText {
         h2 {
           margin: 0;
-          font-weight: 800;
           @media (min-width: 768px) {
-            font-size: 40px;
+            font-size: 30px;
           }
           @media (min-width: 992px) {
-            font-size: 50px;
+            font-size: 40px;
             text-shadow: 4px 3px 0px #fff, 2px 2px 2px rgb(255, 255, 255);
           }
           @media (min-width: 1440px) {
-            font-size: 70px;
+            font-size: 50px;
           }
         }
         h4 {
@@ -153,7 +151,7 @@ $webfont2: "Poppins", sans-serif;
             width: 60%;
           }
           @media (min-width: 1440px) {
-            font-size: 30px;
+            font-size: 25px;
           }
         }
         ol,

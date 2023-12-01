@@ -67,6 +67,7 @@ main {
   transition: all 0.3s ease-in-out;
   margin: 20px 0;
   max-width: 300px;
+  margin: auto;
   @media (min-width: 768px) {
     max-width: 400px;
   }

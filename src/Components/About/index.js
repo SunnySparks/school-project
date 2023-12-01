@@ -20,9 +20,11 @@ const About = () => {
             <div className="titleimg">
               <img src={about} />
             </div>
-            <h2 className="webfont">
-              Acerca de nosotros<br></br>Sunshine University
-            </h2>
+            <div className="titletxt">
+              <h2 className="webfont">
+                Acerca de nosotros<br></br>Sunshine University
+              </h2>
+            </div>
           </div>
           <div className="content">
             <p className="webfont2">
@@ -40,7 +42,9 @@ const About = () => {
             <div className="titleimg">
               <img src={mision} />
             </div>
-            <h2 className="webfont">Nuestra misión</h2>
+            <div className="titletxt">
+              <h2 className="webfont">Nuestra misión</h2>
+            </div>
           </div>
           <div className="content">
             <p className="webfont2">
@@ -59,7 +63,11 @@ const About = () => {
             <div className="titleimg">
               <img src={prof} />
             </div>
-            <h2 className="webfont">Profesorado excepcional</h2>
+            <div className="titletxt">
+              <h2 className="webfont">
+                Profesorado<br></br>excepcional
+              </h2>
+            </div>
           </div>
           <div className="content">
             <p className="webfont2">
@@ -76,7 +84,9 @@ const About = () => {
             <div className="titleimg">
               <img src={inv} />
             </div>
-            <h2 className="webfont">Investigación de vanguardia</h2>
+            <div className="titletxt">
+              <h2 className="webfont">Investigación de vanguardia</h2>
+            </div>
           </div>
           <div className="content">
             <p className="webfont2">
